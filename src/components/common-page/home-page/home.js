@@ -1,4 +1,3 @@
-
 import {
     Card, 
     CardContent,  
@@ -12,13 +11,14 @@ import {
     ListItemText,
     
 } from "@mui/material"
+import {  Link as RouterLink,Link} from "react-router-dom"
 import classes from "./styles.module.css"
 export const HomePage = () => {
 
     const listData = [
-        { primary: 'Grade 01', secondary: 'Application form for accepting children for class grade 01' },
-        { primary: 'Grade 06', secondary: 'Application form for accepting children for class grade 06' },
-        { primary: 'Grade 12', secondary: 'Application form for accepting children for class grade 12' },
+        { primary: 'Grade 01', secondary: 'Application form for accepting children for class grade 01',page:'/grade01-form' },
+        { primary: 'Grade 06', secondary: 'Application form for accepting children for class grade 06',page:'/grade06-form' },
+        { primary: 'Grade 12', secondary: 'Application form for accepting children for class grade 12',page:'/grade01-form' },
       ];
     return(
         <>
@@ -38,7 +38,14 @@ export const HomePage = () => {
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="small">More Details </Button>
+                <Button size="small"
+                        component={RouterLink}
+                        to="/teachers-info"
+                        edge="start"
+                        aria-label="teachers-info"
+                >
+                    More Details 
+                </Button>
             </CardActions>
         </Card>
         <Card sx={{ maxWidth: 345,}}>
@@ -56,7 +63,14 @@ export const HomePage = () => {
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="small">More Details </Button>
+                <Button size="small"
+                        component={RouterLink}
+                        to="/school-info"
+                        edge="start"
+                        aria-label="school-info"
+                >
+                    More Details 
+                </Button>
             </CardActions>
         </Card>
         <Box sx={{ width: '20%', 
@@ -68,7 +82,7 @@ export const HomePage = () => {
                 }}>
             <List>
                 {listData.map((item, index) => (
-                <ListItem button key={index}>
+                <ListItem button component={Link} to={item.page} key={index}>
                     <ListItemText primary={item.primary} secondary={item.secondary} />
                 </ListItem>
                 ))}
