@@ -13,6 +13,7 @@ import { SchoolInfoPage } from "./components/common-page/home-page/schoolinfo";
 import { Grade01FormPage } from "./components/common-page/application-form/grade01";
 import { Grade06FormPage } from "./components/common-page/application-form/grade06";
 import { HomePage } from "./components/common-page/home-page/home";
+import { Grade12FormPage } from "./components/common-page/application-form/grade12";
 
 
 export const App = () => (
@@ -32,6 +33,7 @@ export const App = () => (
         <Route path="/school-info" exact element={<SchoolInfoPage />}/>
         <Route path="/grade01-form" exact element={<Grade01FormPage />}/>
         <Route path="/grade06-form" exact element={<Grade06FormPage />}/>
+        <Route path="/grade12-form" exact element={<Grade12FormPage/>}/>
       </Routes>
       </Container>
   </Suspense>

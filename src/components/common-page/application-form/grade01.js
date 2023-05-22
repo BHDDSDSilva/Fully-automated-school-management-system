@@ -31,15 +31,15 @@ export const Grade01FormPage = () => {
     element.click();
   };
   return (
-    <div style={{ padding: '20px', textAlign: 'center',margin: '50px' }}>
+    <div style={{ padding: '20px', textAlign: 'left',margin: '50px' }}>
       <Typography variant="h4" gutterBottom>
         Application form for accepting children for class grade 01 
       </Typography>
       <Card sx={{ maxWidth: 1045, backgroundColor: '#f0f0f0' }}>
         <CardContent>
           <form>
+          <Typography>1.Full Name</Typography>
           <TextField
-            label=" 1.Full Name"
             variant="standard"
             rows={1}
             value={formData.firstName}
@@ -47,8 +47,8 @@ export const Grade01FormPage = () => {
             fullWidth
             style={{ marginBottom: '05px' }}
           />
-          <TextField
-            label="2.Intial with Name"
+          <Typography>2.Intial with Name</Typography>
+          <TextField 
             variant="standard"
             rows={1}
             value={formData.lastName}
@@ -56,8 +56,8 @@ export const Grade01FormPage = () => {
             fullWidth
             style={{ marginBottom: '05px' }}
           />
+          <Typography>3.Date of Birthday</Typography>
           <TextField
-            label="3.Date of Birthday"
             variant="standard"
             rows={1}
             value={formData.dateofBirthday}
@@ -65,8 +65,8 @@ export const Grade01FormPage = () => {
             fullWidth
             style={{ marginBottom: '05px' }}
           />
+          <Typography>4.Address</Typography>
           <TextField
-            label="4.Address"
             variant="standard"
             rows={1}
             value={formData.address}
@@ -74,8 +74,8 @@ export const Grade01FormPage = () => {
             fullWidth
             style={{ marginBottom: '05px' }}
           />
+          <Typography>5.Contact Number (Home/Mobile)</Typography>
           <TextField
-            label="5.Contact Number (Home/Mobile)"
             variant="standard"
             rows={1}
             value={formData.contactNumber}
@@ -83,8 +83,8 @@ export const Grade01FormPage = () => {
             fullWidth
             style={{ marginBottom: '05px' }}
           />
+          <Typography>6.Father Name</Typography>
           <TextField
-            label="6.Father Name"
             variant="standard"
             rows={1}
             value={formData.fatherName}
@@ -92,8 +92,8 @@ export const Grade01FormPage = () => {
             fullWidth
             style={{ marginBottom: '05px' }}
           />
+          <Typography>7.Mother Name</Typography>
           <TextField
-            label="7.Mother Name"
             variant="standard"
             rows={1}
             value={formData.motherName}
@@ -101,13 +101,10 @@ export const Grade01FormPage = () => {
             fullWidth
             style={{ marginBottom: '05px' }}
           />
-          </form>
-          <Button variant="contained" onClick={handleDownload}
-            sx={{ 
-                  backgroundColor: 'black' 
-                }}>
+          <Button onClick={handleDownload}>
             Download Form
           </Button>
+          </form>
         </CardContent>
       </Card>
     </div>

@@ -18,7 +18,7 @@ export const HomePage = () => {
     const listData = [
         { primary: 'Grade 01', secondary: 'Application form for accepting children for class grade 01',page:'/grade01-form' },
         { primary: 'Grade 06', secondary: 'Application form for accepting children for class grade 06',page:'/grade06-form' },
-        { primary: 'Grade 12', secondary: 'Application form for accepting children for class grade 12',page:'/grade01-form' },
+        { primary: 'Grade 12', secondary: 'Application form for accepting children for class grade 12',page:'/grade12-form' },
       ];
     return(
         <>
