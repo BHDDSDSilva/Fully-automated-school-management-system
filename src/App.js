@@ -14,6 +14,9 @@ import { Grade01FormPage } from "./components/common-page/application-form/grade
 import { Grade06FormPage } from "./components/common-page/application-form/grade06";
 import { HomePage } from "./components/common-page/home-page/home";
 import { Grade12FormPage } from "./components/common-page/application-form/grade12";
+import { OverviewPage } from "./components/common-page/aboutus-page/overview";
+import { HistoryPage } from "./components/common-page/aboutus-page/history";
+import { ManagementPage } from "./components/common-page/aboutus-page/management";
 
 
 export const App = () => (
@@ -28,6 +31,9 @@ export const App = () => (
         <Route path="/events" exact element={<EventsPage />}/>
         <Route path="/results" exact element={<ResultsPage/>}/>
         <Route path="/aboutus" exact element={<AboutUsPage/>}/>
+        <Route path="/school-overview" exact element={<OverviewPage/>}/>
+        <Route path="/school-history" exact element={<HistoryPage/>}/>
+        <Route path="/school-management" exact element={<ManagementPage/>}/>
         <Route path="/login" exact element={<LoginPage/>} />
         <Route path="/teachers-info" exact element={<TeachersInfoPage />}/>
         <Route path="/school-info" exact element={<SchoolInfoPage />}/>
