@@ -1,4 +1,4 @@
-export const OAresultsPage = () => {
+export const ALresultsPage = () => {
     return(
         <>
         <div>

@@ -25,23 +25,23 @@ export const ResultsPage = () => {
         <div className={`${classes.pageHeader} ${classes.mb2}`}>
         <Card sx={{ maxWidth: 245 }}>
             <CardMedia
-                    sx={{ height: 140 }}
-                    image="./school.jpg"
+                    sx={{ height: 250 }}
+                    image="./grade05.jpg"
             />
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                    Overview
+                    Grade 05 Scholarship
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    School overview is included  here. Vision and Mission are included here.
+                    2022 grade 05 scholarship results list
                 </Typography>
             </CardContent>
             <CardActions>
                 <Button size="small"
                         component={RouterLink}
-                        to="/school-overview"
+                        to="/grade5scholarship"
                         edge="start"
-                        aria-label="school-overview"
+                        aria-label="grade5scholarship"
                 >
                     More Details 
                 </Button>
@@ -49,23 +49,23 @@ export const ResultsPage = () => {
         </Card>
         <Card sx={{ maxWidth: 245,}}>
             <CardMedia
-                    sx={{ height: 160 }}
-                    image="./history.jpeg"
+                    sx={{ height: 250 }}
+                    image="./olresults.jpg"
             />
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                    History
+                    G.C.E (O/L) Examination
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    Our school history is included here.
+                    2022 G.C.E (O/L)  examination results list
                 </Typography>
             </CardContent>
             <CardActions>
                 <Button size="small"
                         component={RouterLink}
-                        to="/school-history"
+                        to="/olresults"
                         edge="start"
-                        aria-label="school-history"
+                        aria-label="olresults"
                 >
                     More Details 
                 </Button>
@@ -73,23 +73,23 @@ export const ResultsPage = () => {
         </Card>
         <Card sx={{ maxWidth: 245,}}>
             <CardMedia
-                    sx={{ height: 140 }}
-                    image="./SchoolManagement.jpg"
+                    sx={{ height: 250 }}
+                    image="./alresults.jpg"
             />
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                    School Management
+                    G.C.E (A/L) Examination
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    Our school's organizational chart is included here.
+                    2022 G.C.E (A/L)  examination results list
                 </Typography>
             </CardContent>
             <CardActions>
                 <Button size="small"
                         component={RouterLink}
-                        to="/school-management"
+                        to="/alresults"
                         edge="start"
-                        aria-label="school-management"
+                        aria-label="alresults"
                 >
                     More Details 
                 </Button>
