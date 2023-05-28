@@ -20,6 +20,9 @@ import { ManagementPage } from "./components/common-page/aboutus-page/management
 import { Grade05scholarshipPage } from "./components/common-page/results-page/grade5scholarship";
 import { OLresultsPage } from "./components/common-page/results-page/olresults";
 import { ALresultsPage } from "./components/common-page/results-page/alresults";
+import { ForgotPasswordPage } from "./components/forgot-password/forgotpassword";
+import { SetNewPasswordPage } from "./components/forgot-password/setnewpassword";
+import { AdminHomePage } from "./components/admin-page/adminhome";
 
 
 export const App = () => (
@@ -41,11 +44,14 @@ export const App = () => (
         <Route path="/school-history" exact element={<HistoryPage/>}/>
         <Route path="/school-management" exact element={<ManagementPage/>}/>
         <Route path="/login" exact element={<LoginPage/>} />
+        <Route path="/forgot-password" exact element={<ForgotPasswordPage/>}/>
+        <Route path="/set-newpassword" exact element={<SetNewPasswordPage/>}/>
         <Route path="/teachers-info" exact element={<TeachersInfoPage />}/>
         <Route path="/school-info" exact element={<SchoolInfoPage />}/>
         <Route path="/grade01-form" exact element={<Grade01FormPage />}/>
         <Route path="/grade06-form" exact element={<Grade06FormPage />}/>
         <Route path="/grade12-form" exact element={<Grade12FormPage/>}/>
+        <Route path="/admin" exact element={<AdminHomePage/>}/>
       </Routes>
       </Container>
   </Suspense>

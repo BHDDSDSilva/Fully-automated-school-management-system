@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, TextField, InputAdornment, IconButton,Card,Typography,Button } from '@mui/material';
 import { Visibility, VisibilityOff } from '@mui/icons-material';
-import { Link,} from "react-router-dom"
+import { Link as RouterLink} from "react-router-dom"
 import classes from "./styles.module.css"
 
-export const LoginPage = () => {
+export const SetNewPasswordPage = () => {
     const [showPassword, setShowPassword] = React.useState(false);
 
   const handlePasswordVisibility = () => {
@@ -16,10 +16,10 @@ export const LoginPage = () => {
         <div className={`${classes.pageHeader} ${classes.mb2}`}>
         <Card className={`${classes.card} ${classes.pageHeaderh1}`}>
         <Typography gutterBottom variant="h5" component="div" textAlign={"center"}>
-            Welcome !!!
+            New password
         </Typography>
         <Typography variant="body2" color="text.secondary" textAlign={"center"}>
-                Login your Account
+                Set new password
                 </Typography>
         <Container
         maxWidth="xs"
@@ -27,18 +27,37 @@ export const LoginPage = () => {
             display: 'static',
             alignItems: 'center',
             justifyContent: 'center',
-            height: '100vh',
+            height: '350vh',
         }}
         >
         <form>
+            <Typography variant="body2" color="text.secondary">
+                Create new password
+            </Typography>
             <TextField
-            label="Username"
+            label="New Password"
             margin="normal"
             fullWidth
             required
+            type={showPassword ? 'text' : 'password'}
+            InputProps={{
+                endAdornment: (
+                <InputAdornment position="end">
+                    <IconButton
+                    onClick={handlePasswordVisibility}
+                    edge="end"
+                    >
+                    {showPassword ? <VisibilityOff /> : <Visibility />}
+                    </IconButton>
+                </InputAdornment>
+                ),
+            }}
             />
+            <Typography variant="body2" color="text.secondary">
+                Create new password
+            </Typography>
             <TextField
-            label="Password"
+            label="Confirm Password"
             margin="normal"
             fullWidth
             required
@@ -58,15 +77,18 @@ export const LoginPage = () => {
             />
         </form>
         <div>
-            <Button variant="contained" position="flex" sx={{ backgroundColor: 'blue', alignItems:'center' }}>
-                Login
+        <Button variant="contained" 
+                    position="flex" 
+                    component={RouterLink}
+                    to="/login"
+                    edge="start"
+                    aria-label="login"
+                sx={{ backgroundColor: 'blue', 
+                      alignItems:'center'
+                     }}>
+                Save New Password
             </Button>
-        </div>
-        <div>
-            <Typography className={`${classes.pageHeader} ${classes.mb2}`} >Forgot your password:
-            <Link to="/forgot-password">Forgot password?</Link>
-            </Typography>
-        </div>    
+        </div>   
         </Container>
         </Card>
         </div>
