@@ -13,8 +13,26 @@ export const SetNewPasswordPage = () => {
 
     return(
         <>
+         <div 
+            style={{
+            backgroundImage: `url('./setpassword.jpeg')`,
+            backgroundSize: 'cover',
+            backgroundrepeat: 'no-repeat',
+            backgroundPosition: 'left',
+            height: '500px',
+            width: '845px',
+            }}
+        >
         <div className={`${classes.pageHeader} ${classes.mb2}`}>
-        <Card className={`${classes.card} ${classes.pageHeaderh1}`}>
+        <Card className={`${classes.card} ${classes.pageHeaderh1}`}
+            sx={{  
+                position: 'fixed', 
+                right:'3%', 
+                bottom: '20%',
+                height: '350px', 
+                backgroundColor: '#ffe4b5',
+                border: '4px solid #a52a2a'
+            }}>
         <Typography gutterBottom variant="h5" component="div" textAlign={"center"}>
             New password
         </Typography>
@@ -91,6 +109,7 @@ export const SetNewPasswordPage = () => {
         </div>   
         </Container>
         </Card>
+        </div>
         </div>
        </>
     )

@@ -13,14 +13,31 @@ export const LoginPage = () => {
 
     return(
         <>
+        <div 
+            style={{
+            backgroundImage: `url('./loginpagebackground2.jpg')`,
+            backgroundSize: 'cover',
+            backgroundrepeat: 'no-repeat',
+            backgroundPosition: 'center',
+            height: '500px',
+            width: '1255px',
+            }}
+        > 
         <div className={`${classes.pageHeader} ${classes.mb2}`}>
-        <Card className={`${classes.card} ${classes.pageHeaderh1}`}>
+        <Card className={`${classes.card} ${classes.pageHeaderh1}`} 
+                sx={{  
+                   position: 'fixed', 
+                   right: '10%', 
+                   height: '350px', 
+                   backgroundColor: 'rgb(252, 194, 243)',
+                   border: '4px solid rgb(248, 137, 233)'
+                }}>
         <Typography gutterBottom variant="h5" component="div" textAlign={"center"}>
             Welcome !!!
         </Typography>
         <Typography variant="body2" color="text.secondary" textAlign={"center"}>
                 Login your Account
-                </Typography>
+        </Typography>
         <Container
         maxWidth="xs"
         style={{
@@ -69,6 +86,7 @@ export const LoginPage = () => {
         </div>    
         </Container>
         </Card>
+        </div>
         </div>
        </>
     )

@@ -7,8 +7,26 @@ export const ForgotPasswordPage = () => {
     
     return(
         <>
+        <div 
+            style={{
+            backgroundImage: `url('./forgotpassword.webp')`,
+            backgroundSize: 'cover',
+            backgroundrepeat: 'no-repeat',
+            backgroundPosition: 'left',
+            height: '500px',
+            width: '645px',
+            }}
+        > 
         <div className={`${classes.pageHeader} ${classes.mb2}`}>
-        <Card className={`${classes.card1} ${classes.pageHeaderh1}`}>
+        <Card className={`${classes.card1} ${classes.pageHeaderh1}`} 
+            sx={{  
+                   position: 'fixed', 
+                   right:'20%', 
+                   bottom: '30%',
+                   height: '250px', 
+                   backgroundColor: '#87ceeb',
+                   border: '4px solid #0000cd'
+                }}>
         <Typography gutterBottom variant="h5" component="div" textAlign={"center"}>
             Forgot Password
         </Typography>
@@ -46,6 +64,7 @@ export const ForgotPasswordPage = () => {
         </div>   
         </Container>
         </Card>
+        </div>
         </div>
        </>
     )

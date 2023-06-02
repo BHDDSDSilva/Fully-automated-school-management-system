@@ -14,23 +14,20 @@
     color: #444;
     margin: 0;
 }
-  .card {
-    display: static;
+.card {
+    display: fixed;
     justify-content: center; 
-    align-items: center; 
+    align-items: center;  
     border-radius: 4px;
     padding: 16px;
-    text-decoration-color: black;
+    text-decoration-color: black; 
+    position: 'static', 
   }
-
   .card1 {
-    display: static;
+    display: fixed;
     justify-content: center; 
-    align-items: center; 
+    align-items: center;  
     border-radius: 4px;
     padding: 16px;
-    text-decoration-color: black;
+    position: 'static', 
   }
-
-  
-  

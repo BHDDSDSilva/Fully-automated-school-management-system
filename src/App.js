@@ -23,6 +23,11 @@ import { ALresultsPage } from "./components/common-page/results-page/alresults";
 import { ForgotPasswordPage } from "./components/forgot-password/forgotpassword";
 import { SetNewPasswordPage } from "./components/forgot-password/setnewpassword";
 import { AdminHomePage } from "./components/admin-page/adminhome";
+import { StudentsPage } from "./components/admin-page/students";
+import { TeachersPage } from "./components/admin-page/teachers";
+import { SchoolAttendancePage } from "./components/admin-page/schoolattendance";
+import { CommonPage } from "./components/admin-page/common";
+import { MyAccountPage } from "./components/admin-page/myaccount";
 
 
 export const App = () => (
@@ -52,6 +57,11 @@ export const App = () => (
         <Route path="/grade06-form" exact element={<Grade06FormPage />}/>
         <Route path="/grade12-form" exact element={<Grade12FormPage/>}/>
         <Route path="/admin" exact element={<AdminHomePage/>}/>
+        <Route path="/admin-students" exact element={<StudentsPage/>}/>
+        <Route path="/admin-teachers" exact element={<TeachersPage/>}/>
+        <Route path="/school-attendance" exact element={<SchoolAttendancePage/>}/>
+        <Route path="/common-page" exact element={<CommonPage/>}/>
+        <Route path="/my-account" exact element={<MyAccountPage/>}/>
       </Routes>
       </Container>
   </Suspense>

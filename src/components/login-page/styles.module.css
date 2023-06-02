@@ -16,13 +16,11 @@
 }
 
 .card {
-    display: static;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 350px; /* Set the desired height for your card */
-    border: 1px solid #ccc;
+    display: fixed;
+    justify-content: center; 
+    align-items: center;  
     border-radius: 4px;
     padding: 16px;
-    background-color: rgb(230, 208, 248);
-    text-decoration-color: black;
+    text-decoration-color: black; 
+    position: 'static', 
   }
