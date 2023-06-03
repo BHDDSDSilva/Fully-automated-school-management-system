@@ -118,14 +118,14 @@ export const AdminHomePage = () => {
                      bottom: '10%', 
                      height: '100px',
                      width: '475px', 
-                     backgroundColor: '#e6e6fa',
-                     border: '4px solid #000000'
+                     backgroundColor: '#4b0082',
+                     border: '4px solid #ff00ff'
                   }}>
            <CardContent>
-             <Typography gutterBottom variant="h4" component="div">
+             <Typography gutterBottom variant="h4" component="div" color="white" align='left'>
                   All Teachers 
              </Typography>
-             <Typography variant="body2" color="text.secondary">
+             <Typography variant="body2" color="yellow" align='left'>
                   Number of teachers working in the school
              </Typography>
            </CardContent>
@@ -137,15 +137,15 @@ export const AdminHomePage = () => {
                      bottom: '10%', 
                      height: '100px',
                      width: '475px', 
-                     backgroundColor: '#e6e6fa',
-                     border: '4px solid #000000'
+                     backgroundColor: '#8b4513',
+                     border: '4px solid #ffff00'
                   }}>
            <CardContent>
-             <Typography gutterBottom variant="h5" component="div">
-                     Teachers Info
+             <Typography gutterBottom variant="h4" component="div" color="white" align='left'>
+                    Students Info
              </Typography>
-             <Typography variant="body2" color="text.secondary">
-                 Our 
+             <Typography variant="body2" color="yellow" align='left'>
+                    Number of students working in the school 
              </Typography>
            </CardContent>
          </Card>  
