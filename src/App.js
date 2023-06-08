@@ -57,6 +57,32 @@ import { Grade04C } from "./components/admin-page-students/Grade04/grade04C";
 import { Grade05A } from "./components/admin-page-students/Grade05/grade05A";
 import { Grade05B } from "./components/admin-page-students/Grade05/grade05B";
 import { Grade05C } from "./components/admin-page-students/Grade05/grade05C";
+import { Grade06A } from "./components/admin-page-students/Grade06/grade06A";
+import { Grade06B } from "./components/admin-page-students/Grade06/grade06B";
+import { Grade06C } from "./components/admin-page-students/Grade06/grade06C";
+import { Grade07A } from "./components/admin-page-students/Grade07/grade07A";
+import { Grade07B } from "./components/admin-page-students/Grade07/grade07B";
+import { Grade07C } from "./components/admin-page-students/Grade07/grade07C";
+import { Grade08A } from "./components/admin-page-students/Grade08/grade08A";
+import { Grade08B } from "./components/admin-page-students/Grade08/grade08B";
+import { Grade08C } from "./components/admin-page-students/Grade08/grade08C";
+import { Grade09A } from "./components/admin-page-students/Grade09/grade09A";
+import { Grade09B } from "./components/admin-page-students/Grade09/grade09B";
+import { Grade09C } from "./components/admin-page-students/Grade09/grade09C";
+import { Grade10A } from "./components/admin-page-students/Grade10/grade10A";
+import { Grade10B } from "./components/admin-page-students/Grade10/grade10B";
+import { Grade10C } from "./components/admin-page-students/Grade10/grade10C";
+import { Grade11A } from "./components/admin-page-students/Grade11/grade11A";
+import { Grade11B } from "./components/admin-page-students/Grade11/grade11B";
+import { Grade11C } from "./components/admin-page-students/Grade11/grade11C";
+import { Grade12A } from "./components/admin-page-students/Grade12/grade12A";
+import { Grade12B } from "./components/admin-page-students/Grade12/grade12B";
+import { Grade12C } from "./components/admin-page-students/Grade12/grade12C";
+import { Grade12D } from "./components/admin-page-students/Grade12/grade12D";
+import { Grade13A } from "./components/admin-page-students/Grade13/grade13A";
+import { Grade13B } from "./components/admin-page-students/Grade13/grade13B";
+import { Grade13C } from "./components/admin-page-students/Grade13/grade13C";
+import { Grade13D } from "./components/admin-page-students/Grade13/grade13D";
 
 
 export const App = () => (
@@ -91,30 +117,56 @@ export const App = () => (
         <Route path="/students-grade01-grade01-A" exact element={<Grade01A/>}/>
         <Route path="/students-grade01-grade01-B" exact element={<Grade01B/>}/>
         <Route path="/students-grade01-grade01-C" exact element={<Grade01C/>}/>
+        <Route path="/students-grade02" exact element={<Grade02Page/>}/>
         <Route path="/students-grade02-grade02-A" exact element={<Grade02A/>}/>
         <Route path="/students-grade02-grade02-B" exact element={<Grade02B/>}/>
         <Route path="/students-grade02-grade02-C" exact element={<Grade02C/>}/>
+        <Route path="/students-grade03" exact element={<Grade03Page/>}/>
         <Route path="/students-grade03-grade03-A" exact element={<Grade03A/>}/>
         <Route path="/students-grade03-grade03-B" exact element={<Grade03B/>}/>
         <Route path="/students-grade03-grade03-C" exact element={<Grade03C/>}/>
+        <Route path="/students-grade04" exact element={<Grade04Page/>}/>
         <Route path="/students-grade04-grade04-A" exact element={<Grade04A/>}/>
         <Route path="/students-grade04-grade04-B" exact element={<Grade04B/>}/>
         <Route path="/students-grade04-grade04-C" exact element={<Grade04C/>}/>
+        <Route path="/students-grade05" exact element={<Grade05Page/>}/>
         <Route path="/students-grade05-grade05-A" exact element={<Grade05A/>}/>
         <Route path="/students-grade05-grade05-B" exact element={<Grade05B/>}/>
         <Route path="/students-grade05-grade05-C" exact element={<Grade05C/>}/>
-        <Route path="/students-grade02" exact element={<Grade02Page/>}/>
-        <Route path="/students-grade03" exact element={<Grade03Page/>}/>
-        <Route path="/students-grade04" exact element={<Grade04Page/>}/>
-        <Route path="/students-grade05" exact element={<Grade05Page/>}/>
         <Route path="/students-grade06" exact element={<Grade06Page/>}/>
+        <Route path="/students-grade06-grade06-A" exact element={<Grade06A/>}/>
+        <Route path="/students-grade06-grade06-B" exact element={<Grade06B/>}/>
+        <Route path="/students-grade06-grade06-C" exact element={<Grade06C/>}/>
         <Route path="/students-grade07" exact element={<Grade07Page/>}/>
+        <Route path="/students-grade07-grade07-A" exact element={<Grade07A/>}/>
+        <Route path="/students-grade07-grade07-B" exact element={<Grade07B/>}/>
+        <Route path="/students-grade07-grade07-C" exact element={<Grade07C/>}/>
         <Route path="/students-grade08" exact element={<Grade08Page/>}/>
+        <Route path="/students-grade08-grade08-A" exact element={<Grade08A/>}/>
+        <Route path="/students-grade08-grade08-B" exact element={<Grade08B/>}/>
+        <Route path="/students-grade08-grade08-C" exact element={<Grade08C/>}/>
         <Route path="/students-grade09" exact element={<Grade09Page/>}/>
+        <Route path="/students-grade09-grade09-A" exact element={<Grade09A/>}/>
+        <Route path="/students-grade09-grade09-B" exact element={<Grade09B/>}/>
+        <Route path="/students-grade09-grade09-C" exact element={<Grade09C/>}/>
         <Route path="/students-grade10" exact element={<Grade10Page/>}/>
+        <Route path="/students-grade10-grade10-A" exact element={<Grade10A/>}/>
+        <Route path="/students-grade10-grade10-B" exact element={<Grade10B/>}/>
+        <Route path="/students-grade10-grade10-C" exact element={<Grade10C/>}/>
         <Route path="/students-grade11" exact element={<Grade11Page/>}/>
+        <Route path="/students-grade11-grade11-A" exact element={<Grade11A/>}/>
+        <Route path="/students-grade11-grade11-B" exact element={<Grade11B/>}/>
+        <Route path="/students-grade11-grade11-C" exact element={<Grade11C/>}/>
         <Route path="/students-grade12" exact element={<Grade12Page/>}/>
+        <Route path="/students-grade12-grade12-A" exact element={<Grade12A/>}/>
+        <Route path="/students-grade12-grade12-B" exact element={<Grade12B/>}/>
+        <Route path="/students-grade12-grade12-C" exact element={<Grade12C/>}/>
+        <Route path="/students-grade12-grade12-D" exact element={<Grade12D/>}/>
         <Route path="/students-grade13" exact element={<Grade13Page/>}/>
+        <Route path="/students-grade13-grade13-A" exact element={<Grade13A/>}/>
+        <Route path="/students-grade13-grade13-B" exact element={<Grade13B/>}/>
+        <Route path="/students-grade13-grade13-C" exact element={<Grade13C/>}/>
+        <Route path="/students-grade13-grade13-D" exact element={<Grade13D/>}/>
         <Route path="/add-students" exact element={<AddStudentPage/>}/>
         <Route path="/admin-teachers" exact element={<TeachersPage/>}/>
         <Route path="/school-attendance" exact element={<SchoolAttendancePage/>}/>
