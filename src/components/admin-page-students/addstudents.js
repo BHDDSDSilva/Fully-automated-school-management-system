@@ -17,6 +17,7 @@ export const AddStudentPage = () => {
     const [grade, setGrade] = useState('');
     const [age, setAge] = useState('');
     const [address, setAddress] = useState('');
+    const [telephonenumber, setTelephoneNumber] = useState('');
     const [profilePicture, setProfilePicture] = useState('');
     const [status, setStatus] = useState(false);
     const [showPassword, setShowPassword] = React.useState(false);
@@ -61,6 +62,10 @@ export const AddStudentPage = () => {
       setAddress(e.target.value);
     };
 
+    const handleTelephoneNumberChange = (e) => {
+      setTelephoneNumber(e.target.value);
+    };
+
     const handleFileChange = (e) => {
       const file = e.target.files[0];
       setProfilePicture(file);
@@ -84,6 +89,7 @@ export const AddStudentPage = () => {
     setGrade('');
     setAge('');
     setAddress('');
+    setTelephoneNumber('');
     setProfilePicture('');
     setStatus('');
   };
@@ -251,6 +257,14 @@ export const AddStudentPage = () => {
                   label="Address"
                   value={address}
                   onChange={handleAddressChange}
+                  fullWidth
+                  margin="normal"
+                  variant="outlined"
+                />
+                <TextField
+                  label="Tele Phone Number"
+                  value={telephonenumber}
+                  onChange={handleTelephoneNumberChange}
                   fullWidth
                   margin="normal"
                   variant="outlined"

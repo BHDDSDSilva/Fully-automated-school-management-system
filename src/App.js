@@ -83,6 +83,15 @@ import { Grade13A } from "./components/admin-page-students/Grade13/grade13A";
 import { Grade13B } from "./components/admin-page-students/Grade13/grade13B";
 import { Grade13C } from "./components/admin-page-students/Grade13/grade13C";
 import { Grade13D } from "./components/admin-page-students/Grade13/grade13D";
+import { Grade01AStudentRecords } from "./components/admin-page-students/Grade01/grade01A Student records";
+import { Grade01AStudentAchievement } from "./components/admin-page-students/Grade01/grade01A Student achievement";
+import { Grade01AStudentStatus } from "./components/admin-page-students/Grade01/grade01A Student status";
+import { Grade01BStudentRecords } from "./components/admin-page-students/Grade01/grade01B Student records ";
+import { Grade01BStudentAchievement } from "./components/admin-page-students/Grade01/grade01B Student achievement ";
+import { Grade01BStudentStatus } from "./components/admin-page-students/Grade01/grade01B Student status ";
+import { Grade01CStudentRecords } from "./components/admin-page-students/Grade01/grade01C Student records ";
+import { Grade01CStudentAchievement } from "./components/admin-page-students/Grade01/grade01C Student achievement ";
+import { Grade01CStudentStatus } from "./components/admin-page-students/Grade01/grade01C Student status ";
 
 
 export const App = () => (
@@ -115,8 +124,17 @@ export const App = () => (
         <Route path="/admin-students" exact element={<StudentsPage/>}/>
         <Route path="/students-grade01" exaxt element={<Grade01Page/>}/>
         <Route path="/students-grade01-grade01-A" exact element={<Grade01A/>}/>
+        <Route path="/students-grade01-grade01-A-Student-records" exact element={<Grade01AStudentRecords/>}/>
+        <Route path="/students-grade01-grade01-A-Student-achievement" exact element={<Grade01AStudentAchievement/>}/>
+        <Route path="/students-grade01-grade01-A-Student-status" exact element={<Grade01AStudentStatus/>}/>
         <Route path="/students-grade01-grade01-B" exact element={<Grade01B/>}/>
+        <Route path="/students-grade01-grade01-B-Student-records" exact element={<Grade01BStudentRecords/>}/>
+        <Route path="/students-grade01-grade01-B-Student-achievement" exact element={<Grade01BStudentAchievement/>}/>
+        <Route path="/students-grade01-grade01-B-Student-status" exact element={<Grade01BStudentStatus/>}/>
         <Route path="/students-grade01-grade01-C" exact element={<Grade01C/>}/>
+        <Route path="/students-grade01-grade01-C-Student-records" exact element={<Grade01CStudentRecords/>}/>
+        <Route path="/students-grade01-grade01-C-Student-achievement" exact element={<Grade01CStudentAchievement/>}/>
+        <Route path="/students-grade01-grade01-C-Student-status" exact element={<Grade01CStudentStatus/>}/>
         <Route path="/students-grade02" exact element={<Grade02Page/>}/>
         <Route path="/students-grade02-grade02-A" exact element={<Grade02A/>}/>
         <Route path="/students-grade02-grade02-B" exact element={<Grade02B/>}/>
