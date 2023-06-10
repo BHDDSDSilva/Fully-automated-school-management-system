@@ -183,9 +183,9 @@ export const Grade13Page = () => {
             <CardActions>
                 <Button size="big"
                         component={RouterLink}
-                        to="/students-grade13-grade13-E"
+                        to="/students-grade13-grade13-D"
                         edge="start"
-                        aria-label="students-grade13-grade13-E"
+                        aria-label="students-grade13-grade13-D"
                 sx={{   
                         color: '#000000',
                         fontweight: 'bold'
