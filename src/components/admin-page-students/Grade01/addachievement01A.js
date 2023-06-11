@@ -6,10 +6,11 @@ import { Home,Web,SupervisorAccount,PeopleAlt, PendingActions,AccountCircle } fr
 import { Link as RouterLink } from "react-router-dom";
 import classes from "./styles.module.css"
 
-export const Grade01BStudentStatus = () => {
+export const AddAchievements01A = () => {
 
     const [indexnumber, setIndexNumber] = useState('');
     const [name, setName] = useState('');
+    const [topic, setTopic] = useState('');
     const [description, setDescription] = useState('');
     const [date, setDate] = useState('');
     const [activities, setActivities] = React.useState('');
@@ -23,6 +24,10 @@ export const Grade01BStudentStatus = () => {
       setName(e.target.value);
     };
 
+    const handleTopicChange = (e) => {
+      setTopic(e.target.value);
+    };
+
     const handleDescriptionChange = (e) => {
       setDescription(e.target.value);
     };
@@ -32,17 +37,18 @@ export const Grade01BStudentStatus = () => {
     };
 
     const options = [
-        { value: 'option1', label: 'Active' },
-        { value: 'option2', label: 'Inactive' },
+        { value: 'option1', label: 'Co - curricular Activities' },
+        { value: 'option2', label: 'Extra - curricular Activities' },
     ];
   
     const handleSubmit = (e) => {
       e.preventDefault();
-      console.log('New Achievements:', { indexnumber,name,activities,description,date});
+      console.log('New Achievements:', { indexnumber,name,activities,topic,description,date});
 
 
     setIndexNumber('');
     setName('');
+    setTopic('');
     setDescription('');
     setDate('');
     setActivities('');
@@ -104,7 +110,7 @@ export const Grade01BStudentStatus = () => {
               position: 'fixed', 
               left: '21%',  
           }}>
-            Edit Students Status 
+            Add New Achievement 
       </Typography>
       </div>
       <div>
@@ -151,7 +157,15 @@ export const Grade01BStudentStatus = () => {
                     </Select>
                 </FormControl>
                 <TextField
-                  label="Reason"
+                  label="Topic"
+                  value={topic}
+                  onChange={handleTopicChange}
+                  fullWidth
+                  margin="normal"
+                  variant="outlined"
+                />
+                <TextField
+                  label="Description"
                   value={description}
                   onChange={handleDescriptionChange}
                   multiline
@@ -167,18 +181,18 @@ export const Grade01BStudentStatus = () => {
                   margin="normal"
                   variant="outlined"
                 />
-                <Button 
+                <Button  
                     type="submit"
                     variant="contained" 
                     position="flex" 
                     component={RouterLink}
-                    to="/students-grade01-grade01-B-Student-records"
+                    to="/students-grade01-grade01-A-Student-achievement"
                     edge="start"
-                    aria-label="students-grade01-grade01-B-Student-records"
+                    aria-label="students-grade01-grade01-A-Student-achievement"
                   sx={{ backgroundColor: 'blue', 
                       alignItems:'center'
                      }}>
-                  Save Status
+                  Add Achievement
                 </Button>
               </form>
             </Box>

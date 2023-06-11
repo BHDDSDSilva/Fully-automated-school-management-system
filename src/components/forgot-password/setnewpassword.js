@@ -95,7 +95,8 @@ export const SetNewPasswordPage = () => {
             />
         </form>
         <div>
-        <Button variant="contained" 
+        <Button     type="submit"
+                    variant="contained" 
                     position="flex" 
                     component={RouterLink}
                     to="/login"
