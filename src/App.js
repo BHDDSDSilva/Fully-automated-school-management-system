@@ -215,6 +215,38 @@ import { AddAchievements02C } from "./components/admin-page-students/Grade02/add
 import { AddAchievements03A } from "./components/admin-page-students/Grade03/addachievement03A";
 import { AddAchievements03B } from "./components/admin-page-students/Grade03/addachievement03B";
 import { AddAchievements03C } from "./components/admin-page-students/Grade03/addachievement03C";
+import { AddAchievements04A } from "./components/admin-page-students/Grade04/addachievement04A";
+import { AddAchievements04B } from "./components/admin-page-students/Grade04/addachievement04B";
+import { AddAchievements04C } from "./components/admin-page-students/Grade04/addachievement04C";
+import { AddAchievements05A } from "./components/admin-page-students/Grade05/addachievement05A";
+import { AddAchievements05B } from "./components/admin-page-students/Grade05/addachievement05B";
+import { AddAchievements05C } from "./components/admin-page-students/Grade05/addachievement05C";
+import { AddAchievements06A } from "./components/admin-page-students/Grade06/addachievement06A";
+import { AddAchievements06B } from "./components/admin-page-students/Grade06/addachievement06B";
+import { AddAchievements06C } from "./components/admin-page-students/Grade06/addachievement06C";
+import { AddAchievements07A } from "./components/admin-page-students/Grade07/addachievement07A";
+import { AddAchievements07B } from "./components/admin-page-students/Grade07/addachievement07B";
+import { AddAchievements07C } from "./components/admin-page-students/Grade07/addachievement07C";
+import { AddAchievements08A } from "./components/admin-page-students/Grade08/addachievement08A";
+import { AddAchievements08B } from "./components/admin-page-students/Grade08/addachievement08B";
+import { AddAchievements08C } from "./components/admin-page-students/Grade08/addachievement08C";
+import { AddAchievements09A } from "./components/admin-page-students/Grade09/addachievement09A";
+import { AddAchievements09B } from "./components/admin-page-students/Grade09/addachievement09B";
+import { AddAchievements09C } from "./components/admin-page-students/Grade09/addachievement09C";
+import { AddAchievements10A } from "./components/admin-page-students/Grade10/addachievement10A";
+import { AddAchievements10B } from "./components/admin-page-students/Grade10/addachievement10B";
+import { AddAchievements10C } from "./components/admin-page-students/Grade10/addachievement10C";
+import { AddAchievements11A } from "./components/admin-page-students/Grade11/addachievement11A";
+import { AddAchievements11B } from "./components/admin-page-students/Grade11/addachievement11B";
+import { AddAchievements11C } from "./components/admin-page-students/Grade11/addachievement11C";
+import { AddAchievements12A } from "./components/admin-page-students/Grade12/addachievement12A";
+import { AddAchievements12B } from "./components/admin-page-students/Grade12/addachievement12B";
+import { AddAchievements12C } from "./components/admin-page-students/Grade12/addachievement12C";
+import { AddAchievements12D } from "./components/admin-page-students/Grade12/addachievement12D";
+import { AddAchievements13A } from "./components/admin-page-students/Grade13/addachievement13A";
+import { AddAchievements13B } from "./components/admin-page-students/Grade13/addachievement13B";
+import { AddAchievements13C } from "./components/admin-page-students/Grade13/addachievement13C";
+import { AddAchievements13D } from "./components/admin-page-students/Grade13/addachievement13D";
 
 
 
@@ -299,139 +331,171 @@ export const App = () => (
         <Route path="/students-grade04-grade04-A" exact element={<Grade04A/>}/>
         <Route path="/students-grade04-grade04-A-Student-records" exact element={<Grade04AStudentRecords/>}/>
         <Route path="/students-grade04-grade04-A-Student-achievement" exact element={<Grade04AStudentAchievement/>}/>
+        <Route path="/students-grade04-grade04-A-Student-add-achievement" exact element={<AddAchievements04A/>}/>
         <Route path="/students-grade04-grade04-A-Student-status" exact element={<Grade04AStudentStatus/>}/>
         <Route path="/students-grade04-grade04-B" exact element={<Grade04B/>}/>
         <Route path="/students-grade04-grade04-B-Student-records" exact element={<Grade04BStudentRecords/>}/>
         <Route path="/students-grade04-grade04-B-Student-achievement" exact element={<Grade04BStudentAchievement/>}/>
+        <Route path="/students-grade04-grade04-B-Student-add-achievement" exact element={<AddAchievements04B/>}/>
         <Route path="/students-grade04-grade04-B-Student-status" exact element={<Grade04BStudentStatus/>}/>
         <Route path="/students-grade04-grade04-C" exact element={<Grade04C/>}/>
         <Route path="/students-grade04-grade04-C-Student-records" exact element={<Grade04CStudentRecords/>}/>
         <Route path="/students-grade04-grade04-C-Student-achievement" exact element={<Grade04CStudentAchievement/>}/>
+        <Route path="/students-grade04-grade04-C-Student-add-achievement" exact element={<AddAchievements04C/>}/>
         <Route path="/students-grade04-grade04-C-Student-status" exact element={<Grade04CStudentStatus/>}/>
         <Route path="/students-grade05" exact element={<Grade05Page/>}/>
         <Route path="/students-grade05-grade05-A" exact element={<Grade05A/>}/>
         <Route path="/students-grade05-grade05-A-Student-records" exact element={<Grade05AStudentRecords/>}/>
         <Route path="/students-grade05-grade05-A-Student-achievement" exact element={<Grade05AStudentAchievement/>}/>
+        <Route path="/students-grade05-grade05-A-Student-add-achievement" exact element={<AddAchievements05A/>}/>
         <Route path="/students-grade05-grade05-A-Student-status" exact element={<Grade05AStudentStatus/>}/>
         <Route path="/students-grade05-grade05-B" exact element={<Grade05B/>}/>
         <Route path="/students-grade05-grade05-B-Student-records" exact element={<Grade05BStudentRecords/>}/>
         <Route path="/students-grade05-grade05-B-Student-achievement" exact element={<Grade05BStudentAchievement/>}/>
+        <Route path="/students-grade05-grade05-B-Student-add-achievement" exact element={<AddAchievements05B/>}/>
         <Route path="/students-grade05-grade05-B-Student-status" exact element={<Grade05BStudentStatus/>}/>
         <Route path="/students-grade05-grade05-C" exact element={<Grade05C/>}/>
         <Route path="/students-grade05-grade05-C-Student-records" exact element={<Grade05CStudentRecords/>}/>
         <Route path="/students-grade05-grade05-C-Student-achievement" exact element={<Grade05CStudentAchievement/>}/>
+        <Route path="/students-grade05-grade05-C-Student-add-achievement" exact element={<AddAchievements05C/>}/>
         <Route path="/students-grade05-grade05-C-Student-status" exact element={<Grade05CStudentStatus/>}/>
         <Route path="/students-grade06" exact element={<Grade06Page/>}/>
         <Route path="/students-grade06-grade06-A" exact element={<Grade06A/>}/>
         <Route path="/students-grade06-grade06-A-Student-records" exact element={<Grade06AStudentRecords/>}/>
         <Route path="/students-grade06-grade06-A-Student-achievement" exact element={<Grade06AStudentAchievement/>}/>
+        <Route path="/students-grade06-grade06-A-Student-add-achievement" exact element={<AddAchievements06A/>}/>
         <Route path="/students-grade06-grade06-A-Student-status" exact element={<Grade06AStudentStatus/>}/>
         <Route path="/students-grade06-grade06-B" exact element={<Grade06B/>}/>
         <Route path="/students-grade06-grade06-B-Student-records" exact element={<Grade06BStudentRecords/>}/>
         <Route path="/students-grade06-grade06-B-Student-achievement" exact element={<Grade06BStudentAchievement/>}/>
+        <Route path="/students-grade06-grade06-B-Student-add-achievement" exact element={<AddAchievements06B/>}/>
         <Route path="/students-grade06-grade06-B-Student-status" exact element={<Grade06BStudentStatus/>}/>
         <Route path="/students-grade06-grade06-C" exact element={<Grade06C/>}/>
         <Route path="/students-grade06-grade06-C-Student-records" exact element={<Grade06CStudentRecords/>}/>
         <Route path="/students-grade06-grade06-C-Student-achievement" exact element={<Grade06CStudentAchievement/>}/>
+        <Route path="/students-grade06-grade06-C-Student-add-achievement" exact element={<AddAchievements06C/>}/>
         <Route path="/students-grade06-grade06-C-Student-status" exact element={<Grade06CStudentStatus/>}/>
         <Route path="/students-grade07" exact element={<Grade07Page/>}/>
         <Route path="/students-grade07-grade07-A" exact element={<Grade07A/>}/>
         <Route path="/students-grade07-grade07-A-Student-records" exact element={<Grade07AStudentRecords/>}/>
         <Route path="/students-grade07-grade07-A-Student-achievement" exact element={<Grade07AStudentAchievement/>}/>
+        <Route path="/students-grade07-grade07-A-Student-add-achievement" exact element={<AddAchievements07A/>}/>
         <Route path="/students-grade07-grade07-A-Student-status" exact element={<Grade07AStudentStatus/>}/>
         <Route path="/students-grade07-grade07-B" exact element={<Grade07B/>}/>
         <Route path="/students-grade07-grade07-B-Student-records" exact element={<Grade07BStudentRecords/>}/>
         <Route path="/students-grade07-grade07-B-Student-achievement" exact element={<Grade07BStudentAchievement/>}/>
+        <Route path="/students-grade07-grade07-B-Student-add-achievement" exact element={<AddAchievements07B/>}/>
         <Route path="/students-grade07-grade07-B-Student-status" exact element={<Grade07BStudentStatus/>}/>
         <Route path="/students-grade07-grade07-C" exact element={<Grade07C/>}/>
         <Route path="/students-grade07-grade07-C-Student-records" exact element={<Grade07CStudentRecords/>}/>
         <Route path="/students-grade07-grade07-C-Student-achievement" exact element={<Grade07CStudentAchievement/>}/>
+        <Route path="/students-grade07-grade07-C-Student-add-achievement" exact element={<AddAchievements07C/>}/>
         <Route path="/students-grade07-grade07-C-Student-status" exact element={<Grade07CStudentStatus/>}/>
         <Route path="/students-grade08" exact element={<Grade08Page/>}/>
         <Route path="/students-grade08-grade08-A" exact element={<Grade08A/>}/>
         <Route path="/students-grade08-grade08-A-Student-records" exact element={<Grade08AStudentRecords/>}/>
         <Route path="/students-grade08-grade08-A-Student-achievement" exact element={<Grade08AStudentAchievement/>}/>
+        <Route path="/students-grade08-grade08-A-Student-add-achievement" exact element={<AddAchievements08A/>}/>
         <Route path="/students-grade08-grade08-A-Student-status" exact element={<Grade08AStudentStatus/>}/>
         <Route path="/students-grade08-grade08-B" exact element={<Grade08B/>}/>
         <Route path="/students-grade08-grade08-B-Student-records" exact element={<Grade08BStudentRecords/>}/>
         <Route path="/students-grade08-grade08-B-Student-achievement" exact element={<Grade08BStudentAchievement/>}/>
+        <Route path="/students-grade08-grade08-B-Student-add-achievement" exact element={<AddAchievements08B/>}/>
         <Route path="/students-grade08-grade08-B-Student-status" exact element={<Grade08BStudentStatus/>}/>
         <Route path="/students-grade08-grade08-C" exact element={<Grade08C/>}/>
         <Route path="/students-grade08-grade08-C-Student-records" exact element={<Grade08CStudentRecords/>}/>
         <Route path="/students-grade08-grade08-C-Student-achievement" exact element={<Grade08CStudentAchievement/>}/>
+        <Route path="/students-grade08-grade08-C-Student-add-achievement" exact element={<AddAchievements08C/>}/>
         <Route path="/students-grade08-grade08-C-Student-status" exact element={<Grade08CStudentStatus/>}/>
         <Route path="/students-grade09" exact element={<Grade09Page/>}/>
         <Route path="/students-grade09-grade09-A" exact element={<Grade09A/>}/>
         <Route path="/students-grade09-grade09-A-Student-records" exact element={<Grade09AStudentRecords/>}/>
         <Route path="/students-grade09-grade09-A-Student-achievement" exact element={<Grade09AStudentAchievement/>}/>
+        <Route path="/students-grade09-grade09-A-Student-add-achievement" exact element={<AddAchievements09A/>}/>
         <Route path="/students-grade09-grade09-A-Student-status" exact element={<Grade09AStudentStatus/>}/>
         <Route path="/students-grade09-grade09-B" exact element={<Grade09B/>}/>
         <Route path="/students-grade09-grade09-B-Student-records" exact element={<Grade09BStudentRecords/>}/>
         <Route path="/students-grade09-grade09-B-Student-achievement" exact element={<Grade09BStudentAchievement/>}/>
+        <Route path="/students-grade09-grade09-B-Student-add-achievement" exact element={<AddAchievements09B/>}/>
         <Route path="/students-grade09-grade09-B-Student-status" exact element={<Grade09BStudentStatus/>}/>
         <Route path="/students-grade09-grade09-C" exact element={<Grade09C/>}/>
         <Route path="/students-grade09-grade09-C-Student-records" exact element={<Grade09CStudentRecords/>}/>
         <Route path="/students-grade09-grade09-C-Student-achievement" exact element={<Grade09CStudentAchievement/>}/>
+        <Route path="/students-grade09-grade09-C-Student-add-achievement" exact element={<AddAchievements09C/>}/>
         <Route path="/students-grade09-grade09-C-Student-status" exact element={<Grade09CStudentStatus/>}/>
         <Route path="/students-grade10" exact element={<Grade10Page/>}/>
         <Route path="/students-grade10-grade10-A" exact element={<Grade10A/>}/>
         <Route path="/students-grade10-grade10-A-Student-records" exact element={<Grade10AStudentRecords/>}/>
         <Route path="/students-grade10-grade10-A-Student-achievement" exact element={<Grade10AStudentAchievement/>}/>
+        <Route path="/students-grade10-grade10-A-Student-add-achievement" exact element={<AddAchievements10A/>}/>
         <Route path="/students-grade10-grade10-A-Student-status" exact element={<Grade10AStudentStatus/>}/>
         <Route path="/students-grade10-grade10-B" exact element={<Grade10B/>}/>
         <Route path="/students-grade10-grade10-B-Student-records" exact element={<Grade10BStudentRecords/>}/>
         <Route path="/students-grade10-grade10-B-Student-achievement" exact element={<Grade10BStudentAchievement/>}/>
+        <Route path="/students-grade10-grade10-B-Student-add-achievement" exact element={<AddAchievements10B/>}/>
         <Route path="/students-grade10-grade10-B-Student-status" exact element={<Grade10BStudentStatus/>}/>
         <Route path="/students-grade10-grade10-C" exact element={<Grade10C/>}/>
         <Route path="/students-grade10-grade10-C-Student-records" exact element={<Grade10CStudentRecords/>}/>
         <Route path="/students-grade10-grade10-C-Student-achievement" exact element={<Grade10CStudentAchievement/>}/>
+        <Route path="/students-grade10-grade10-C-Student-add-achievement" exact element={<AddAchievements10C/>}/>
         <Route path="/students-grade10-grade10-C-Student-status" exact element={<Grade10CStudentStatus/>}/>
         <Route path="/students-grade11" exact element={<Grade11Page/>}/>
         <Route path="/students-grade11-grade11-A" exact element={<Grade11A/>}/>
         <Route path="/students-grade11-grade11-A-Student-records" exact element={<Grade11AStudentRecords/>}/>
         <Route path="/students-grade11-grade11-A-Student-achievement" exact element={<Grade11AStudentAchievement/>}/>
+        <Route path="/students-grade11-grade11-A-Student-add-achievement" exact element={<AddAchievements11A/>}/>
         <Route path="/students-grade11-grade11-A-Student-status" exact element={<Grade11AStudentStatus/>}/>
         <Route path="/students-grade11-grade11-B" exact element={<Grade11B/>}/>
         <Route path="/students-grade11-grade11-B-Student-records" exact element={<Grade11BStudentRecords/>}/>
         <Route path="/students-grade11-grade11-B-Student-achievement" exact element={<Grade11BStudentAchievement/>}/>
+        <Route path="/students-grade11-grade11-B-Student-add-achievement" exact element={<AddAchievements11B/>}/>
         <Route path="/students-grade11-grade11-B-Student-status" exact element={<Grade11BStudentStatus/>}/>
         <Route path="/students-grade11-grade11-C" exact element={<Grade11C/>}/>
         <Route path="/students-grade11-grade11-C-Student-records" exact element={<Grade11CStudentRecords/>}/>
         <Route path="/students-grade11-grade11-C-Student-achievement" exact element={<Grade11CStudentAchievement/>}/>
+        <Route path="/students-grade11-grade11-C-Student-add-achievement" exact element={<AddAchievements11C/>}/>
         <Route path="/students-grade11-grade11-C-Student-status" exact element={<Grade11CStudentStatus/>}/>
         <Route path="/students-grade12" exact element={<Grade12Page/>}/>
         <Route path="/students-grade12-grade12-A" exact element={<Grade12A/>}/>
         <Route path="/students-grade12-grade12-A-Student-records" exact element={<Grade12AStudentRecords/>}/>
         <Route path="/students-grade12-grade12-A-Student-achievement" exact element={<Grade12AStudentAchievement/>}/>
+        <Route path="/students-grade12-grade12-A-Student-add-achievement" exact element={<AddAchievements12A/>}/>
         <Route path="/students-grade12-grade12-A-Student-status" exact element={<Grade12AStudentStatus/>}/>
         <Route path="/students-grade12-grade12-B" exact element={<Grade12B/>}/>
         <Route path="/students-grade12-grade12-B-Student-records" exact element={<Grade12BStudentRecords/>}/>
         <Route path="/students-grade12-grade12-B-Student-achievement" exact element={<Grade12BStudentAchievement/>}/>
+        <Route path="/students-grade12-grade12-B-Student-add-achievement" exact element={<AddAchievements12B/>}/>
         <Route path="/students-grade12-grade12-B-Student-status" exact element={<Grade12BStudentStatus/>}/>
         <Route path="/students-grade12-grade12-C" exact element={<Grade12C/>}/>
         <Route path="/students-grade12-grade12-C-Student-records" exact element={<Grade12CStudentRecords/>}/>
         <Route path="/students-grade12-grade12-C-Student-achievement" exact element={<Grade12CStudentAchievement/>}/>
+        <Route path="/students-grade12-grade12-C-Student-add-achievement" exact element={<AddAchievements12C/>}/>
         <Route path="/students-grade12-grade12-C-Student-status" exact element={<Grade12CStudentStatus/>}/>
         <Route path="/students-grade12-grade12-D" exact element={<Grade12D/>}/>
         <Route path="/students-grade12-grade12-D-Student-records" exact element={<Grade12DStudentRecords/>}/>
         <Route path="/students-grade12-grade12-D-Student-achievement" exact element={<Grade12DStudentAchievement/>}/>
+        <Route path="/students-grade12-grade12-D-Student-add-achievement" exact element={<AddAchievements12D/>}/>
         <Route path="/students-grade12-grade12-D-Student-status" exact element={<Grade12DStudentStatus/>}/>
         <Route path="/students-grade13" exact element={<Grade13Page/>}/>
         <Route path="/students-grade13-grade13-A" exact element={<Grade13A/>}/>
         <Route path="/students-grade13-grade13-A-Student-records" exact element={<Grade13AStudentRecords/>}/>
         <Route path="/students-grade13-grade13-A-Student-achievement" exact element={<Grade13AStudentAchievement/>}/>
+        <Route path="/students-grade13-grade13-A-Student-add-achievement" exact element={<AddAchievements13A/>}/>
         <Route path="/students-grade13-grade13-A-Student-status" exact element={<Grade13AStudentStatus/>}/>
         <Route path="/students-grade13-grade13-B" exact element={<Grade13B/>}/>
         <Route path="/students-grade13-grade13-B-Student-records" exact element={<Grade13BStudentRecords/>}/>
         <Route path="/students-grade13-grade13-B-Student-achievement" exact element={<Grade13BStudentAchievement/>}/>
+        <Route path="/students-grade13-grade13-B-Student-add-achievement" exact element={<AddAchievements13B/>}/>
         <Route path="/students-grade13-grade13-B-Student-status" exact element={<Grade13BStudentStatus/>}/>
         <Route path="/students-grade13-grade13-C" exact element={<Grade13C/>}/>
         <Route path="/students-grade13-grade13-C-Student-records" exact element={<Grade13CStudentRecords/>}/>
         <Route path="/students-grade13-grade13-C-Student-achievement" exact element={<Grade13CStudentAchievement/>}/>
+        <Route path="/students-grade13-grade13-C-Student-add-achievement" exact element={<AddAchievements13C/>}/>
         <Route path="/students-grade13-grade13-C-Student-status" exact element={<Grade13CStudentStatus/>}/>
         <Route path="/students-grade13-grade13-D" exact element={<Grade13D/>}/>
         <Route path="/students-grade13-grade13-D-Student-records" exact element={<Grade13DStudentRecords/>}/>
         <Route path="/students-grade13-grade13-D-Student-achievement" exact element={<Grade13DStudentAchievement/>}/>
+        <Route path="/students-grade13-grade13-D-Student-add-achievement" exact element={<AddAchievements13D/>}/>
         <Route path="/students-grade13-grade13-D-Student-status" exact element={<Grade13DStudentStatus/>}/>
         <Route path="/add-students" exact element={<AddStudentPage/>}/>
         <Route path="/admin-teachers" exact element={<TeachersPage/>}/>
