@@ -87,11 +87,12 @@ export const StudentsPage = () => {
       <Box sx={{   width: '20%', 
                    position: 'fixed', 
                    left: '24%', 
-                   top: '37%', 
-                   height: '40vh', 
+                   top: '32%', 
+                   height: '50vh', 
                    backgroundColor: '#98fb98',
                    border: '4px solid #008000'
                 }}>
+            <Typography variant="h6" align='center'> Primary Grades 01 - 05 </Typography>
             <List>
                 {listData.map((item, index) => (
                 <ListItem button component={Link} to={item.page} key={index}>
@@ -103,11 +104,12 @@ export const StudentsPage = () => {
         <Box sx={{ width: '20%', 
                    position: 'fixed', 
                    left: '50%', 
-                   top: '37%', 
-                   height: '50vh', 
+                   top: '32%', 
+                   height: '55vh', 
                    backgroundColor: '#afeeee',
                    border: '4px solid #00008b' 
                 }}>
+            <Typography variant="h6" align='center'> Secondary Grades 06 - 11 </Typography>
             <List>
                 {listData1.map((item, index) => (
                 <ListItem button component={Link} to={item.page} key={index}>
@@ -119,11 +121,12 @@ export const StudentsPage = () => {
         <Box sx={{ width: '20%', 
                    position: 'fixed', 
                    left: '76%', 
-                   top: '37%', 
-                   height: '20vh', 
+                   top: '32%', 
+                   height: '30vh', 
                    backgroundColor: '#eee8aa',
                    border: '4px solid #800000'
                 }}>
+            <Typography variant="h6" align='center'> Tertiary Grades 12 - 13 </Typography>
             <List>
                 {listData2.map((item, index) => (
                 <ListItem button component={Link} to={item.page} key={index}>

@@ -247,6 +247,19 @@ import { AddAchievements13A } from "./components/admin-page-students/Grade13/add
 import { AddAchievements13B } from "./components/admin-page-students/Grade13/addachievement13B";
 import { AddAchievements13C } from "./components/admin-page-students/Grade13/addachievement13C";
 import { AddAchievements13D } from "./components/admin-page-students/Grade13/addachievement13D";
+import { AddTeachersPage } from "./components/admin-page-teachers/addteachers";
+import { Grade01TeachersInformationPage } from "./components/admin-page-teachers/Grade01";
+import { Grade01TeachersRecord } from "./components/admin-page-teachers/grade01 Teachers records";
+import { Grade01TeachersTimetable } from "./components/admin-page-teachers/grade01 teachers timetable";
+import { Grade01TeachersStatus } from "./components/admin-page-teachers/grade01 Teachers status";
+import { Grade02TeachersInformationPage } from "./components/admin-page-teachers/Grade02";
+import { Grade02TeachersRecord } from "./components/admin-page-teachers/grade02 Teachers records";
+import { Grade02TeachersTimetable } from "./components/admin-page-teachers/grade02 teachers timetable";
+import { Grade02TeachersStatus } from "./components/admin-page-teachers/grade02 Teachers status";
+import { Grade03TeachersInformationPage } from "./components/admin-page-teachers/Grade03";
+import { Grade03TeachersRecord } from "./components/admin-page-teachers/grade03 Teachers records";
+import { Grade03TeachersTimetable } from "./components/admin-page-teachers/grade03 teachers timetable";
+import { Grade03TeachersStatus } from "./components/admin-page-teachers/grade03 Teachers status";
 
 
 
@@ -499,6 +512,19 @@ export const App = () => (
         <Route path="/students-grade13-grade13-D-Student-status" exact element={<Grade13DStudentStatus/>}/>
         <Route path="/add-students" exact element={<AddStudentPage/>}/>
         <Route path="/admin-teachers" exact element={<TeachersPage/>}/>
+        <Route path="/add-teachers" exact element={<AddTeachersPage/>}/>
+        <Route path="/Grade-01-teachers-information" exact element={<Grade01TeachersInformationPage/>}/>
+        <Route path="/Grade-01-teachers-records" exact element={<Grade01TeachersRecord/>}/>
+        <Route path="/Grade-01-teachers-timetable" exact element={<Grade01TeachersTimetable/>}/>
+        <Route path="/students-grade01-Teacher-status" exact element={<Grade01TeachersStatus/>}/>
+        <Route path="/Grade-02-teachers-information" exact element={<Grade02TeachersInformationPage/>}/>
+        <Route path="/Grade-02-teachers-records" exact element={<Grade02TeachersRecord/>}/>
+        <Route path="/Grade-02-teachers-timetable" exact element={<Grade02TeachersTimetable/>}/>
+        <Route path="/students-grade02-Teacher-status" exact element={<Grade02TeachersStatus/>}/>
+        <Route path="/Grade-03-teachers-information" exact element={<Grade03TeachersInformationPage/>}/>
+        <Route path="/Grade-03-teachers-records" exact element={<Grade03TeachersRecord/>}/>
+        <Route path="/Grade-03-teachers-timetable" exact element={<Grade03TeachersTimetable/>}/>
+        <Route path="/students-grade03-Teacher-status" exact element={<Grade03TeachersStatus/>}/>
         <Route path="/school-attendance" exact element={<SchoolAttendancePage/>}/>
         <Route path="/common-page" exact element={<CommonPage/>}/>
         <Route path="/my-account" exact element={<MyAccountPage/>}/>
