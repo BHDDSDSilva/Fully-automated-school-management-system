@@ -81,7 +81,7 @@ export const Grade02TeachersInformationPage = () => {
             Teachers Records
         </Typography>
         <Typography variant="body1" color="#800000" align="center">
-            Personal information records of all teachers in grade 01 classes
+            Personal information records of all teachers in grade 02 classes
         </Typography>          
         <CardActions>
         <Button size="big"
@@ -114,7 +114,7 @@ export const Grade02TeachersInformationPage = () => {
             Teachers Time table
         </Typography>
         <Typography variant="body1" color="#000000" align="center">
-            Teachers time table uploaded of all teachers in grade01 classes
+            Teachers time table uploaded of all teachers in grade 02 classes
         </Typography>          
         <CardActions>
         <Button size="big"

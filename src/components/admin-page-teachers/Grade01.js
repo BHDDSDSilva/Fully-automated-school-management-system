@@ -114,7 +114,7 @@ export const Grade01TeachersInformationPage = () => {
             Teachers Time table
         </Typography>
         <Typography variant="body1" color="#000000" align="center">
-            Teachers time table uploaded of all teachers in grade01 classes
+            Teachers time table uploaded of all teachers in grade 01 classes
         </Typography>          
         <CardActions>
         <Button size="big"

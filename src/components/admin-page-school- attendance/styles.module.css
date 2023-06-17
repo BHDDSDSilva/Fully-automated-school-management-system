@@ -1,0 +1,33 @@
+.mb2 {
+    margin-bottom: 2em !important;
+}
+
+.pageHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0 1em;
+    
+}
+.pageHeaderh1 {
+    font-size: 2em;
+    font-weight: 400;
+    color: #444;
+    margin: 0;
+}
+.card {
+    display: fixed;
+    justify-content: center; 
+    align-items: center;  
+    border-radius: 4px;
+    padding: 16px;
+    text-decoration-color: black; 
+    position: 'static', 
+  }
+  .card1 {
+    display: fixed;
+    justify-content: center; 
+    align-items: center;  
+    border-radius: 4px;
+    padding: 16px;
+    position: 'static', 
+  }

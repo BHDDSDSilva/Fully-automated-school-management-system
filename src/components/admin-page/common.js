@@ -1,7 +1,8 @@
 import React from 'react';
-import { List, ListItem, ListItemIcon, ListItemText,Box } from '@mui/material';
+import { List, ListItem, ListItemIcon, ListItemText, Box, Button, Card, CardActions, CardMedia, } from '@mui/material';
 import { Home,Web,SupervisorAccount,PeopleAlt, PendingActions,AccountCircle } from '@mui/icons-material';
-import {  Link as RouterLink } from "react-router-dom"
+import {  Link as RouterLink } from "react-router-dom";
+import classes from "./styles.module.css"
 
 export const CommonPage = () => {
     return (
@@ -53,6 +54,95 @@ export const CommonPage = () => {
           </ListItem>
         </List>
         </Box>
+      </div>
+      <div className={`${classes.pageHeader} ${classes.mb2}`}>
+      <Card 
+        sx={{   maxWidth: '450',
+                width: '23%', 
+                position: 'fixed', 
+                left: "21%", 
+                top: "29%", 
+                height: '50vh', 
+                backgroundColor: '#ee82ee',
+                border: '4px solid #800080', 
+            }}>
+            <CardMedia
+                    sx={{ height: 266 }}
+                    image="./News.jpg"
+            />
+            <CardActions>
+                <Button size="big"
+                        component={RouterLink}
+                        to="/uplaod-news"
+                        edge="start"
+                        aria-label="uplaod-news"
+                sx={{   
+                        color: '#000000',
+                        fontweight: 'bold'
+                    }}
+                >
+                    Upload News 
+                </Button>
+            </CardActions>
+        </Card>
+        <Card 
+        sx={{   maxWidth: '450',
+                width: '23%', 
+                position: 'fixed', 
+                left: "46%", 
+                top: "29%", 
+                height: '50vh', 
+                backgroundColor: '#adff2f',
+                border: '4px solid #006400', 
+            }}>
+            <CardMedia
+                    sx={{ height: 266 }}
+                    image="./events.jpeg"
+            />
+            <CardActions>
+                <Button size="big"
+                        component={RouterLink}
+                        to="/upload-events"
+                        edge="start"
+                        aria-label="upload-events"
+                sx={{   
+                        color: '#000000',
+                        fontweight: 'bold'
+                    }}
+                >
+                    Upload Events  
+                </Button>
+            </CardActions>
+        </Card>
+        <Card 
+        sx={{   maxWidth: '450',
+                width: '28%', 
+                position: 'fixed', 
+                right: '1%', 
+                top: "29%", 
+                height: '50vh', 
+                backgroundColor: '#ffb6c1',
+                border: '4px solid #ff1493', 
+            }}>
+            <CardMedia
+                    sx={{ height: 266 }}
+                    image="./results.jpg"
+            />
+            <CardActions>
+                <Button size="big"
+                        component={RouterLink}
+                        to="/upload-results"
+                        edge="start"
+                        aria-label="upload-results"
+                sx={{   
+                        color: '#000000',
+                        fontweight: 'bold'
+                    }}
+                >
+                    Upload Results 
+                </Button>
+            </CardActions>
+        </Card>
       </div>
       </>
     )

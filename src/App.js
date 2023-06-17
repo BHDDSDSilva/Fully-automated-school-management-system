@@ -260,6 +260,105 @@ import { Grade03TeachersInformationPage } from "./components/admin-page-teachers
 import { Grade03TeachersRecord } from "./components/admin-page-teachers/grade03 Teachers records";
 import { Grade03TeachersTimetable } from "./components/admin-page-teachers/grade03 teachers timetable";
 import { Grade03TeachersStatus } from "./components/admin-page-teachers/grade03 Teachers status";
+import { Grade04TeachersInformationPage } from "./components/admin-page-teachers/Grade04";
+import { Grade04TeachersRecord } from "./components/admin-page-teachers/grade04 Teachers records";
+import { Grade04TeachersTimetable } from "./components/admin-page-teachers/grade04 teachers timetable";
+import { Grade04TeachersStatus } from "./components/admin-page-teachers/grade04 Teachers status";
+import { Grade05TeachersInformationPage } from "./components/admin-page-teachers/Grade05";
+import { Grade05TeachersRecord } from "./components/admin-page-teachers/grade05 Teachers records";
+import { Grade05TeachersTimetable } from "./components/admin-page-teachers/grade05 teachers timetable";
+import { Grade05TeachersStatus } from "./components/admin-page-teachers/grade05 Teachers status";
+import { Grade06TeachersInformationPage } from "./components/admin-page-teachers/Grade06";
+import { Grade06TeachersRecord } from "./components/admin-page-teachers/grade06 Teachers records";
+import { Grade06TeachersTimetable } from "./components/admin-page-teachers/grade06 teachers timetable";
+import { Grade06TeachersStatus } from "./components/admin-page-teachers/grade06 Teachers status ";
+import { Grade07TeachersInformationPage } from "./components/admin-page-teachers/Grade07";
+import { Grade07TeachersRecord } from "./components/admin-page-teachers/grade07 Teachers records";
+import { Grade07TeachersTimetable } from "./components/admin-page-teachers/grade07 teachers timetable";
+import { Grade07TeachersStatus } from "./components/admin-page-teachers/grade07 Teachers status";
+import { Grade08TeachersInformationPage } from "./components/admin-page-teachers/Grade08";
+import { Grade08TeachersRecord } from "./components/admin-page-teachers/grade08 Teachers records";
+import { Grade08TeachersTimetable } from "./components/admin-page-teachers/grade08 teachers timetable";
+import { Grade08TeachersStatus } from "./components/admin-page-teachers/grade08 Teachers status";
+import { Grade09TeachersInformationPage } from "./components/admin-page-teachers/Grade09";
+import { Grade09TeachersRecord } from "./components/admin-page-teachers/grade09 Teachers records ";
+import { Grade09TeachersTimetable } from "./components/admin-page-teachers/grade09 teachers timetable";
+import { Grade09TeachersStatus } from "./components/admin-page-teachers/grade09 Teachers status";
+import { Grade10TeachersInformationPage } from "./components/admin-page-teachers/Grade10";
+import { Grade10TeachersRecord } from "./components/admin-page-teachers/grade10 Teachers records ";
+import { Grade10TeachersTimetable } from "./components/admin-page-teachers/grade10 teachers timetable ";
+import { Grade10TeachersStatus } from "./components/admin-page-teachers/grade10 Teachers status ";
+import { Grade11TeachersInformationPage } from "./components/admin-page-teachers/Grade11";
+import { Grade11TeachersRecord } from "./components/admin-page-teachers/grade11 Teachers records";
+import { Grade11TeachersTimetable } from "./components/admin-page-teachers/grade11 teachers timetable";
+import { Grade11TeachersStatus } from "./components/admin-page-teachers/grade11 Teachers status";
+import { Grade12TeachersInformationPage } from "./components/admin-page-teachers/Grade12";
+import { Grade12TeachersRecord } from "./components/admin-page-teachers/grade12 Teachers records";
+import { Grade12TeachersTimetable } from "./components/admin-page-teachers/grade12 teachers timetable";
+import { Grade12TeachersStatus } from "./components/admin-page-teachers/grade12 Teachers status";
+import { Grade13TeachersInformationPage } from "./components/admin-page-teachers/Grade13";
+import { Grade13TeachersRecord } from "./components/admin-page-teachers/grade13 Teachers records";
+import { Grade13TeachersTimetable } from "./components/admin-page-teachers/grade13 teachers timetable";
+import { Grade13TeachersStatus } from "./components/admin-page-teachers/grade13 Teachers status";
+import { StudentAttendancePage } from "./components/admin-page-school- attendance/studentattendance";
+import { TeacherAttendancePage } from "./components/admin-page-school- attendance/teachersattendance";
+import { Grade01AttendancePage } from "./components/admin-page-school- attendance/Grade01/grade01";
+import { Grade01AAttendancePage } from "./components/admin-page-school- attendance/Grade01/01A";
+import { Grade01BAttendancePage } from "./components/admin-page-school- attendance/Grade01/01B";
+import { Grade01CAttendancePage } from "./components/admin-page-school- attendance/Grade01/01C";
+import { Grade02AttendancePage } from "./components/admin-page-school- attendance/Grade02/grade02";
+import { Grade02AAttendancePage } from "./components/admin-page-school- attendance/Grade02/02A";
+import { Grade02BAttendancePage } from "./components/admin-page-school- attendance/Grade02/02B";
+import { Grade02CAttendancePage } from "./components/admin-page-school- attendance/Grade02/02C";
+import { Grade03AttendancePage } from "./components/admin-page-school- attendance/Grade03/grade03";
+import { Grade03AAttendancePage } from "./components/admin-page-school- attendance/Grade03/03A";
+import { Grade03BAttendancePage } from "./components/admin-page-school- attendance/Grade03/03B";
+import { Grade03CAttendancePage } from "./components/admin-page-school- attendance/Grade03/03C";
+import { Grade04AttendancePage } from "./components/admin-page-school- attendance/Grade04/grade04";
+import { Grade04AAttendancePage } from "./components/admin-page-school- attendance/Grade04/04A";
+import { Grade04BAttendancePage } from "./components/admin-page-school- attendance/Grade04/04B";
+import { Grade04CAttendancePage } from "./components/admin-page-school- attendance/Grade04/04C";
+import { Grade05AttendancePage } from "./components/admin-page-school- attendance/Grade05/grade05";
+import { Grade05AAttendancePage } from "./components/admin-page-school- attendance/Grade05/05A";
+import { Grade05BAttendancePage } from "./components/admin-page-school- attendance/Grade05/05B";
+import { Grade05CAttendancePage } from "./components/admin-page-school- attendance/Grade05/05C";
+import { Grade06AttendancePage } from "./components/admin-page-school- attendance/Grade06/grade06";
+import { Grade06AAttendancePage } from "./components/admin-page-school- attendance/Grade06/06A";
+import { Grade06BAttendancePage } from "./components/admin-page-school- attendance/Grade06/06B";
+import { Grade06CAttendancePage } from "./components/admin-page-school- attendance/Grade06/06C";
+import { Grade07AttendancePage } from "./components/admin-page-school- attendance/Grade07/grade07";
+import { Grade07AAttendancePage } from "./components/admin-page-school- attendance/Grade07/07A";
+import { Grade07BAttendancePage } from "./components/admin-page-school- attendance/Grade07/07B";
+import { Grade07CAttendancePage } from "./components/admin-page-school- attendance/Grade07/07C";
+import { Grade08AttendancePage } from "./components/admin-page-school- attendance/Grade08/grade08";
+import { Grade08AAttendancePage } from "./components/admin-page-school- attendance/Grade08/08A";
+import { Grade08BAttendancePage } from "./components/admin-page-school- attendance/Grade08/08B";
+import { Grade08CAttendancePage } from "./components/admin-page-school- attendance/Grade08/08C";
+import { Grade09AttendancePage } from "./components/admin-page-school- attendance/Grade09/grade09";
+import { Grade09AAttendancePage } from "./components/admin-page-school- attendance/Grade09/09A";
+import { Grade09BAttendancePage } from "./components/admin-page-school- attendance/Grade09/09B";
+import { Grade09CAttendancePage } from "./components/admin-page-school- attendance/Grade09/09C";
+import { Grade10AttendancePage } from "./components/admin-page-school- attendance/Grade10/grade10";
+import { Grade10AAttendancePage } from "./components/admin-page-school- attendance/Grade10/10A";
+import { Grade10BAttendancePage } from "./components/admin-page-school- attendance/Grade10/10B";
+import { Grade10CAttendancePage } from "./components/admin-page-school- attendance/Grade10/10C";
+import { Grade11AttendancePage } from "./components/admin-page-school- attendance/Grade11/grade11";
+import { Grade11AAttendancePage } from "./components/admin-page-school- attendance/Grade11/11A";
+import { Grade11BAttendancePage } from "./components/admin-page-school- attendance/Grade11/11B";
+import { Grade11CAttendancePage } from "./components/admin-page-school- attendance/Grade11/11C";
+import { Grade12DAttendancePage } from "./components/admin-page-school- attendance/Grade12/12D";
+import { Grade12AAttendancePage } from "./components/admin-page-school- attendance/Grade12/12A";
+import { Grade12BAttendancePage } from "./components/admin-page-school- attendance/Grade12/12B";
+import { Grade12CAttendancePage } from "./components/admin-page-school- attendance/Grade12/12C";
+import { Grade12AttendancePage } from "./components/admin-page-school- attendance/Grade12/grade12";
+import { Grade13AttendancePage } from "./components/admin-page-school- attendance/Grade13/grade13";
+import { Grade13AAttendancePage } from "./components/admin-page-school- attendance/Grade13/13A";
+import { Grade13BAttendancePage } from "./components/admin-page-school- attendance/Grade13/13B";
+import { Grade13CAttendancePage } from "./components/admin-page-school- attendance/Grade13/13C";
+import { Grade13DAttendancePage } from "./components/admin-page-school- attendance/Grade13/13D";
+import { AddNewsPage } from "./components/admin-page-common/uploadnews";
+import { AddEventsPage } from "./components/admin-page-common/uploadevents";
+import { AddResultsPage } from "./components/admin-page-common/uploadresults";
 
 
 
@@ -525,8 +624,107 @@ export const App = () => (
         <Route path="/Grade-03-teachers-records" exact element={<Grade03TeachersRecord/>}/>
         <Route path="/Grade-03-teachers-timetable" exact element={<Grade03TeachersTimetable/>}/>
         <Route path="/students-grade03-Teacher-status" exact element={<Grade03TeachersStatus/>}/>
+        <Route path="/Grade-04-teachers-information" exact element={<Grade04TeachersInformationPage/>}/>
+        <Route path="/Grade-04-teachers-records" exact element={<Grade04TeachersRecord/>}/>
+        <Route path="/Grade-04-teachers-timetable" exact element={<Grade04TeachersTimetable/>}/>
+        <Route path="/students-grade04-Teacher-status" exact element={<Grade04TeachersStatus/>}/>
+        <Route path="/Grade-05-teachers-information" exact element={<Grade05TeachersInformationPage/>}/>
+        <Route path="/Grade-05-teachers-records" exact element={<Grade05TeachersRecord/>}/>
+        <Route path="/Grade-05-teachers-timetable" exact element={<Grade05TeachersTimetable/>}/>
+        <Route path="/students-grade05-Teacher-status" exact element={<Grade05TeachersStatus/>}/>
+        <Route path="/Grade-06-teachers-information" exact element={<Grade06TeachersInformationPage/>}/>
+        <Route path="/Grade-06-teachers-records" exact element={<Grade06TeachersRecord/>}/>
+        <Route path="/Grade-06-teachers-timetable" exact element={<Grade06TeachersTimetable/>}/>
+        <Route path="/students-grade06-Teacher-status" exact element={<Grade06TeachersStatus/>}/>
+        <Route path="/Grade-07-teachers-information" exact element={<Grade07TeachersInformationPage/>}/>
+        <Route path="/Grade-07-teachers-records" exact element={<Grade07TeachersRecord/>}/>
+        <Route path="/Grade-07-teachers-timetable" exact element={<Grade07TeachersTimetable/>}/>
+        <Route path="/students-grade07-Teacher-status" exact element={<Grade07TeachersStatus/>}/>
+        <Route path="/Grade-08-teachers-information" exact element={<Grade08TeachersInformationPage/>}/>
+        <Route path="/Grade-08-teachers-records" exact element={<Grade08TeachersRecord/>}/>
+        <Route path="/Grade-08-teachers-timetable" exact element={<Grade08TeachersTimetable/>}/>
+        <Route path="/students-grade08-Teacher-status" exact element={<Grade08TeachersStatus/>}/>
+        <Route path="/Grade-09-teachers-information" exact element={<Grade09TeachersInformationPage/>}/>
+        <Route path="/Grade-09-teachers-records" exact element={<Grade09TeachersRecord/>}/>
+        <Route path="/Grade-09-teachers-timetable" exact element={<Grade09TeachersTimetable/>}/>
+        <Route path="/students-grade09-Teacher-status" exact element={<Grade09TeachersStatus/>}/>
+        <Route path="/Grade-10-teachers-information" exact element={<Grade10TeachersInformationPage/>}/>
+        <Route path="/Grade-10-teachers-records" exact element={<Grade10TeachersRecord/>}/>
+        <Route path="/Grade-10-teachers-timetable" exact element={<Grade10TeachersTimetable/>}/>
+        <Route path="/students-grade10-Teacher-status" exact element={<Grade10TeachersStatus/>}/>
+        <Route path="/Grade-11-teachers-information" exact element={<Grade11TeachersInformationPage/>}/>
+        <Route path="/Grade-11-teachers-records" exact element={<Grade11TeachersRecord/>}/>
+        <Route path="/Grade-11-teachers-timetable" exact element={<Grade11TeachersTimetable/>}/>
+        <Route path="/students-grade11-Teacher-status" exact element={<Grade11TeachersStatus/>}/>
+        <Route path="/Grade-12-teachers-information" exact element={<Grade12TeachersInformationPage/>}/>
+        <Route path="/Grade-12-teachers-records" exact element={<Grade12TeachersRecord/>}/>
+        <Route path="/Grade-12-teachers-timetable" exact element={<Grade12TeachersTimetable/>}/>
+        <Route path="/students-grade12-Teacher-status" exact element={<Grade12TeachersStatus/>}/>
+        <Route path="/Grade-13-teachers-information" exact element={<Grade13TeachersInformationPage/>}/>
+        <Route path="/Grade-13-teachers-records" exact element={<Grade13TeachersRecord/>}/>
+        <Route path="/Grade-13-teachers-timetable" exact element={<Grade13TeachersTimetable/>}/>
+        <Route path="/students-grade13-Teacher-status" exact element={<Grade13TeachersStatus/>}/>
         <Route path="/school-attendance" exact element={<SchoolAttendancePage/>}/>
+        <Route path="/school-attendance-students" exact element={<StudentAttendancePage/>}/>
+        <Route path="/school-attendance-teachers" exact element={<TeacherAttendancePage/>}/>
+        <Route path="/students-attendance-grade01" exact element={<Grade01AttendancePage/>}/>
+        <Route path="/students-attendance-grade01-grade01-A" exact element={<Grade01AAttendancePage/>}/>
+        <Route path="/students-attendance-grade01-grade01-B" exact element={<Grade01BAttendancePage/>}/>
+        <Route path="/students-attendance-grade01-grade01-C" exact element={<Grade01CAttendancePage/>}/>
+        <Route path="/students-attendance-grade02" exact element={<Grade02AttendancePage/>}/>
+        <Route path="/students-attendance-grade02-grade02-A" exact element={<Grade02AAttendancePage/>}/>
+        <Route path="/students-attendance-grade02-grade02-B" exact element={<Grade02BAttendancePage/>}/>
+        <Route path="/students-attendance-grade02-grade02-C" exact element={<Grade02CAttendancePage/>}/>
+        <Route path="/students-attendance-grade03" exact element={<Grade03AttendancePage/>}/>
+        <Route path="/students-attendance-grade03-grade03-A" exact element={<Grade03AAttendancePage/>}/>
+        <Route path="/students-attendance-grade03-grade03-B" exact element={<Grade03BAttendancePage/>}/>
+        <Route path="/students-attendance-grade03-grade03-C" exact element={<Grade03CAttendancePage/>}/>
+        <Route path="/students-attendance-grade04" exact element={<Grade04AttendancePage/>}/>
+        <Route path="/students-attendance-grade04-grade04-A" exact element={<Grade04AAttendancePage/>}/>
+        <Route path="/students-attendance-grade04-grade04-B" exact element={<Grade04BAttendancePage/>}/>
+        <Route path="/students-attendance-grade04-grade04-C" exact element={<Grade04CAttendancePage/>}/>
+        <Route path="/students-attendance-grade05" exact element={<Grade05AttendancePage/>}/>
+        <Route path="/students-attendance-grade05-grade05-A" exact element={<Grade05AAttendancePage/>}/>
+        <Route path="/students-attendance-grade05-grade05-B" exact element={<Grade05BAttendancePage/>}/>
+        <Route path="/students-attendance-grade05-grade05-C" exact element={<Grade05CAttendancePage/>}/>
+        <Route path="/students-attendance-grade06" exact element={<Grade06AttendancePage/>}/>
+        <Route path="/students-attendance-grade06-grade06-A" exact element={<Grade06AAttendancePage/>}/>
+        <Route path="/students-attendance-grade06-grade06-B" exact element={<Grade06BAttendancePage/>}/>
+        <Route path="/students-attendance-grade06-grade06-C" exact element={<Grade06CAttendancePage/>}/>
+        <Route path="/students-attendance-grade07" exact element={<Grade07AttendancePage/>}/>
+        <Route path="/students-attendance-grade07-grade07-A" exact element={<Grade07AAttendancePage/>}/>
+        <Route path="/students-attendance-grade07-grade07-B" exact element={<Grade07BAttendancePage/>}/>
+        <Route path="/students-attendance-grade07-grade07-C" exact element={<Grade07CAttendancePage/>}/>
+        <Route path="/students-attendance-grade08" exact element={<Grade08AttendancePage/>}/>
+        <Route path="/students-attendance-grade08-grade08-A" exact element={<Grade08AAttendancePage/>}/>
+        <Route path="/students-attendance-grade08-grade08-B" exact element={<Grade08BAttendancePage/>}/>
+        <Route path="/students-attendance-grade08-grade08-C" exact element={<Grade08CAttendancePage/>}/>
+        <Route path="/students-attendance-grade09" exact element={<Grade09AttendancePage/>}/>
+        <Route path="/students-attendance-grade09-grade09-A" exact element={<Grade09AAttendancePage/>}/>
+        <Route path="/students-attendance-grade09-grade09-B" exact element={<Grade09BAttendancePage/>}/>
+        <Route path="/students-attendance-grade09-grade09-C" exact element={<Grade09CAttendancePage/>}/>
+        <Route path="/students-attendance-grade10" exact element={<Grade10AttendancePage/>}/>
+        <Route path="/students-attendance-grade10-grade10-A" exact element={<Grade10AAttendancePage/>}/>
+        <Route path="/students-attendance-grade10-grade10-B" exact element={<Grade10BAttendancePage/>}/>
+        <Route path="/students-attendance-grade10-grade10-C" exact element={<Grade10CAttendancePage/>}/>
+        <Route path="/students-attendance-grade11" exact element={<Grade11AttendancePage/>}/>
+        <Route path="/students-attendance-grade11-grade11-A" exact element={<Grade11AAttendancePage/>}/>
+        <Route path="/students-attendance-grade11-grade11-B" exact element={<Grade11BAttendancePage/>}/>
+        <Route path="/students-attendance-grade11-grade11-C" exact element={<Grade11CAttendancePage/>}/>
+        <Route path="/students-attendance-grade12" exact element={<Grade12AttendancePage/>}/>
+        <Route path="/students-attendance-grade12-grade12-A" exact element={<Grade12AAttendancePage/>}/>
+        <Route path="/students-attendance-grade12-grade12-B" exact element={<Grade12BAttendancePage/>}/>
+        <Route path="/students-attendance-grade12-grade12-C" exact element={<Grade12CAttendancePage/>}/>
+        <Route path="/students-attendance-grade12-grade12-D" exact element={<Grade12DAttendancePage/>}/>
+        <Route path="/students-attendance-grade13" exact element={<Grade13AttendancePage/>}/>
+        <Route path="/students-attendance-grade13-grade13-A" exact element={<Grade13AAttendancePage/>}/>
+        <Route path="/students-attendance-grade13-grade13-B" exact element={<Grade13BAttendancePage/>}/>
+        <Route path="/students-attendance-grade13-grade13-C" exact element={<Grade13CAttendancePage/>}/>
+        <Route path="/students-attendance-grade13-grade13-D" exact element={<Grade13DAttendancePage/>}/>
         <Route path="/common-page" exact element={<CommonPage/>}/>
+        <Route path="/uplaod-news" exact element={<AddNewsPage/>}/>
+        <Route path="/upload-events" exact element={<AddEventsPage/>}/>
+        <Route path="/upload-results" exact element={<AddResultsPage/>}/>
         <Route path="/my-account" exact element={<MyAccountPage/>}/>
       </Routes>
       </Container>

@@ -9,20 +9,20 @@ export const TeachersPage = () => {
     { primary: 'Grade 01', page:'/Grade-01-teachers-information' },
     { primary: 'Grade 02', page:'/Grade-02-teachers-information' },
     { primary: 'Grade 03', page:'/Grade-03-teachers-information' },
-    { primary: 'Grade 04', page:'/students-grade04' },
-    { primary: 'Grade 05', page:'/students-grade05' },
+    { primary: 'Grade 04', page:'/Grade-04-teachers-information' },
+    { primary: 'Grade 05', page:'/Grade-05-teachers-information' },
   ];
   const listData1 = [
-    { primary: 'Grade 06', page:'/students-grade06' },
-    { primary: 'Grade 07', page:'/students-grade07' },
-    { primary: 'Grade 08', page:'/students-grade08' },
-    { primary: 'Grade 09', page:'/students-grade09' },
-    { primary: 'Grade 10', page:'/students-grade10' },
-    { primary: 'Grade 11', page:'/students-grade11' },
+    { primary: 'Grade 06', page:'/Grade-06-teachers-information' },
+    { primary: 'Grade 07', page:'/Grade-07-teachers-information' },
+    { primary: 'Grade 08', page:'/Grade-08-teachers-information' },
+    { primary: 'Grade 09', page:'/Grade-09-teachers-information' },
+    { primary: 'Grade 10', page:'/Grade-10-teachers-information' },
+    { primary: 'Grade 11', page:'/Grade-11-teachers-information' },
   ];
   const listData2 = [
-    { primary: 'Grade 12', page:'/students-grade12' },
-    { primary: 'Grade 13', page:'/students-grade13' },
+    { primary: 'Grade 12', page:'/Grade-12-teachers-information' },
+    { primary: 'Grade 13', page:'/Grade-13-teachers-information' },
   ];
     return (
       <>
