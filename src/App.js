@@ -359,6 +359,50 @@ import { Grade13DAttendancePage } from "./components/admin-page-school- attendan
 import { AddNewsPage } from "./components/admin-page-common/uploadnews";
 import { AddEventsPage } from "./components/admin-page-common/uploadevents";
 import { AddResultsPage } from "./components/admin-page-common/uploadresults";
+import { TeachersDashboradPage } from "./components/teachers-page/dashborad/dashborad";
+import { FullTimetablePage } from "./components/teachers-page/timetable/fulltimetable";
+import { TeacherStudentPage } from "./components/teachers-page/mystudents/students";
+import { TeacherClassesPage } from "./components/teachers-page/myclasses/classes";
+import { AttendancePage } from "./components/teachers-page/attendance/attendance";
+import { HomeworkPage } from "./components/teachers-page/homework/homework";
+import { AssigmentAndMonthlyTestPage } from "./components/teachers-page/assigment&monthlytest/assigment&monthlytest";
+import { TermTestMarkingPage } from "./components/teachers-page/TermTestMarking/termtestmarking";
+import { TeachersMyAccountPage } from "./components/teachers-page/MyAccount/myaccount";
+import { TeachersInchargePage } from "./components/teachers-page/switchteachersinchage/teachersinchage";
+import { Class01Page } from "./components/teachers-page/myclasses/Class01";
+import { Class02Page } from "./components/teachers-page/myclasses/Class02";
+import { Class03Page } from "./components/teachers-page/myclasses/Class03";
+import { Class04Page } from "./components/teachers-page/myclasses/Class04";
+import { ClassroomPage } from "./components/teachers-page/myclasses/Classroom";
+import { Class01SinhalaPage } from "./components/teachers-page/myclasses/Class01sinhala";
+import { Class01BuddadarmayaPage } from "./components/teachers-page/myclasses/Class01buddadarmaya";
+import { UploadNoteSinhalaPage } from "./components/teachers-page/myclasses/uploadnotesinhala";
+import { UploadNoteBuddadarmayaPage } from "./components/teachers-page/myclasses/uploadnotebuddadarmaya";
+import { Class02SinhalaPage } from "./components/teachers-page/myclasses/Class02sinhala";
+import { Class02UploadNoteSinhalaPage } from "./components/teachers-page/myclasses/class02uploadnotesinhala";
+import { Class02BuddadarmayaPage } from "./components/teachers-page/myclasses/Class02buddadarmaya";
+import { Class02UploadNoteBuddadarmayaPage } from "./components/teachers-page/myclasses/class02uploadnotebuddadarmaya";
+import { Class03SinhalaPage } from "./components/teachers-page/myclasses/Class03sinhala";
+import { Class03UploadNoteSinhalaPage } from "./components/teachers-page/myclasses/class03uploadnotesinhala";
+import { Class03BuddadarmayaPage } from "./components/teachers-page/myclasses/Class03buddadarmaya";
+import { Class03UploadNoteBuddadarmayaPage } from "./components/teachers-page/myclasses/class03uploadnotebuddadarmaya";
+import { Class04SinhalaPage } from "./components/teachers-page/myclasses/Class04sinhala";
+import { Class04UploadNoteSinhalaPage } from "./components/teachers-page/myclasses/class04uploadnotesinhala";
+import { Class04BuddadarmayaPage } from "./components/teachers-page/myclasses/Class04buddadarmaya";
+import { Class04UploadNoteBuddadarmayaPage } from "./components/teachers-page/myclasses/class04uploadnotebuddadarmaya";
+import { MyStudentClass01Page } from "./components/teachers-page/mystudents/MyStudentClass01";
+import { MyStudentClass01SinhalaPage } from "./components/teachers-page/mystudents/MyStudentClass01sinhala";
+import { MyStudentClass01BuddadarmayaPage } from "./components/teachers-page/mystudents/MyStudentClass01buddadarmaya";
+import { MyStudentClass02Page } from "./components/teachers-page/mystudents/MyStudentClass02";
+import { MyStudentClass02SinhalaPage } from "./components/teachers-page/mystudents/MyStudentClass02sinhala";
+import { MyStudentClass02BuddadarmayaPage } from "./components/teachers-page/mystudents/MyStudentClass02buddadarmaya";
+import { MyStudentClass03Page } from "./components/teachers-page/mystudents/MyStudentClass03";
+import { MyStudentClass03SinhalaPage } from "./components/teachers-page/mystudents/MyStudentClass03sinhala";
+import { MyStudentClass03BuddadarmayaPage } from "./components/teachers-page/mystudents/MyStudentClass03buddadarmaya";
+import { MyStudentClass04Page } from "./components/teachers-page/mystudents/MyStudentClass04";
+import { MyStudentClass04SinhalaPage } from "./components/teachers-page/mystudents/MyStudentClass04sinhala";
+import { MyStudentClass04BuddadarmayaPage } from "./components/teachers-page/mystudents/MyStudentClass04buddadarmaya";
+
 
 
 
@@ -726,6 +770,49 @@ export const App = () => (
         <Route path="/upload-events" exact element={<AddEventsPage/>}/>
         <Route path="/upload-results" exact element={<AddResultsPage/>}/>
         <Route path="/my-account" exact element={<MyAccountPage/>}/>
+        <Route path="/teachers" exact element={<TeachersDashboradPage/>}/>
+        <Route path="/teachers-timetable" exact element={<FullTimetablePage/>}/>
+        <Route path="/teachers-classes" exact element={<TeacherClassesPage/>}/>
+        <Route path="/teachers-classes-class01" exact element={<Class01Page/>}/>
+        <Route path="/teachers-classes-class01-sinhala" exact element={<Class01SinhalaPage/>}/>
+        <Route path="/teachers-classes-class01-uploadnote-sinhala" exact element={<UploadNoteSinhalaPage/>}/>
+        <Route path="/teachers-classes-class01-buddadarmaya" exact element={<Class01BuddadarmayaPage/>}/>
+        <Route path="/teachers-classes-class01-uploadnote-buddadarmaya" exact element={<UploadNoteBuddadarmayaPage/>}/>
+        <Route path="/teachers-classes-class02" exact element={<Class02Page/>}/>
+        <Route path="/teachers-classes-class02-sinhala" exact element={<Class02SinhalaPage/>}/>
+        <Route path="/teachers-classes-class02-uploadnote-sinhala" exact element={<Class02UploadNoteSinhalaPage/>}/>
+        <Route path="/teachers-classes-class02-buddadarmaya" exact element={<Class02BuddadarmayaPage/>}/>
+        <Route path="/teachers-classes-class02-uploadnote-buddadarmaya" exact element={<Class02UploadNoteBuddadarmayaPage/>}/>
+        <Route path="/teachers-classes-class03" exact element={<Class03Page/>}/>
+        <Route path="/teachers-classes-class03-sinhala" exact element={<Class03SinhalaPage/>}/>
+        <Route path="/teachers-classes-class03-uploadnote-sinhala" exact element={<Class03UploadNoteSinhalaPage/>}/>
+        <Route path="/teachers-classes-class03-buddadarmaya" exact element={<Class03BuddadarmayaPage/>}/>
+        <Route path="/teachers-classes-class03-uploadnote-buddadarmaya" exact element={<Class03UploadNoteBuddadarmayaPage/>}/>
+        <Route path="/teachers-classes-class04" exact element={<Class04Page/>}/>
+        <Route path="/teachers-classes-class04-sinhala" exact element={<Class04SinhalaPage/>}/>
+        <Route path="/teachers-classes-class04-uploadnote-sinhala" exact element={<Class04UploadNoteSinhalaPage/>}/>
+        <Route path="/teachers-classes-class04-buddadarmaya" exact element={<Class04BuddadarmayaPage/>}/>
+        <Route path="/teachers-classes-class04-uploadnote-buddadarmaya" exact element={<Class04UploadNoteBuddadarmayaPage/>}/>
+        <Route path="/teachers-classes-classroom" exact element={<ClassroomPage/>}/>
+        <Route path="/teachers-students" exact element={<TeacherStudentPage/>}/>
+        <Route path="/teachers-students-class01" exact element={<MyStudentClass01Page/>}/>
+        <Route path="/teachers-students-class01-sinhala" exact element={<MyStudentClass01SinhalaPage/>}/>
+        <Route path="/teachers-students-class01-buddadarmaya" exact element={<MyStudentClass01BuddadarmayaPage/>}/>
+        <Route path="/teachers-students-class02" exact element={<MyStudentClass02Page/>}/>
+        <Route path="/teachers-students-class02-sinhala" exact element={<MyStudentClass02SinhalaPage/>}/>
+        <Route path="/teachers-students-class02-buddadarmaya" exact element={<MyStudentClass02BuddadarmayaPage/>}/>
+        <Route path="/teachers-students-class03" exact element={<MyStudentClass03Page/>}/>
+        <Route path="/teachers-students-class03-sinhala" exact element={<MyStudentClass03SinhalaPage/>}/>
+        <Route path="/teachers-students-class03-buddadarmaya" exact element={<MyStudentClass03BuddadarmayaPage/>}/>
+        <Route path="/teachers-students-class04" exact element={<MyStudentClass04Page/>}/>
+        <Route path="/teachers-students-class04-sinhala" exact element={<MyStudentClass04SinhalaPage/>}/>
+        <Route path="/teachers-students-class04-buddadarmaya" exact element={<MyStudentClass04BuddadarmayaPage/>}/>
+        <Route path="/teacher-attendance" exact element={<AttendancePage/>}/>
+        <Route path="/teachers-home-work" exact element={<HomeworkPage/>}/>
+        <Route path="/teachers-Assigment-monthly-test" exact element={<AssigmentAndMonthlyTestPage/>}/>
+        <Route path="/teachers-Term-Test-Marking" exact element={<TermTestMarkingPage/>}/>
+        <Route path="/teachers-my-account" exact element={<TeachersMyAccountPage/>}/>
+        <Route path="/teachers-incharge" exact element={<TeachersInchargePage/>}/>
       </Routes>
       </Container>
   </Suspense>

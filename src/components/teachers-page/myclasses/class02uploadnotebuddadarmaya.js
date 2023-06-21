@@ -1,12 +1,12 @@
 import React from 'react';
 import { useState } from 'react';
 import { List, ListItem, ListItemIcon, ListItemText, Box, Typography, TextField, Button, Container, Card, CardContent } from '@mui/material';
-import { Home,Web,SupervisorAccount,PeopleAlt, PendingActions,AccountCircle } from '@mui/icons-material';
+import { Home,SupervisorAccount, PendingActions,AccountCircle,Margin,Business,ContentPaste,Assignment,CheckBox } from '@mui/icons-material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Link as RouterLink } from "react-router-dom";
 import classes from "./styles.module.css"
 
-export const AddResultsPage = () => {
+export const Class02UploadNoteBuddadarmayaPage = () => {
 
     const theme = createTheme();
     const [document, setFile] = useState('');
@@ -53,43 +53,61 @@ export const AddResultsPage = () => {
                    backgroundColor: '#87cefa' 
                 }} >
         <List >
-          <ListItem button component={RouterLink} to="/admin" style={{marginTop:"70px"}} >
-            <ListItemIcon>
-              <Home />
-            </ListItemIcon>
-            <ListItemText primary="Dashborad" />
-          </ListItem>
-          <ListItem button component={RouterLink} to="/admin-students" style={{marginTop:"30px"}}>
-            <ListItemIcon>
-              <PeopleAlt />
-            </ListItemIcon>
-            <ListItemText primary="Students" />
-          </ListItem>
-          <ListItem button component={RouterLink} to="/admin-teachers" style={{marginTop:"30px"}}>
-            <ListItemIcon>
-              <SupervisorAccount />
-            </ListItemIcon>
-            <ListItemText primary="Teachers" />
-          </ListItem>
-          <ListItem button component={RouterLink} to="/school-attendance" style={{marginTop:"30px"}}>
-            <ListItemIcon>
-              < PendingActions />
-            </ListItemIcon>
-            <ListItemText primary="School's Attendance" />
-          </ListItem>
-          <ListItem button component={RouterLink} to="/common-page" style={{marginTop:"30px"}}>
-            <ListItemIcon>
-              <Web />
-            </ListItemIcon>
-            <ListItemText primary="Common Page" />
-          </ListItem>
-          <ListItem button component={RouterLink} to="/my-account" style={{marginTop:"75px"}}>
-            <ListItemIcon>
-              <AccountCircle />
-            </ListItemIcon>
-            <ListItemText primary="My Account" />
-          </ListItem>
-        </List>
+            <ListItem button component={RouterLink} to="/teachers" style={{marginTop:"60px"}} >
+              <ListItemIcon>
+                <Home />
+              </ListItemIcon>
+              <ListItemText primary="Dashborad" />
+            </ListItem>
+            <ListItem button component={RouterLink} to="/teachers-timetable" style={{marginTop:"04px"}}>
+              <ListItemIcon>
+                < Margin />
+              </ListItemIcon>
+              <ListItemText primary="Time Table" />
+            </ListItem>
+            <ListItem button component={RouterLink} to="/teachers-classes" style={{marginTop:"04px"}}>
+              <ListItemIcon>
+                <Business />
+              </ListItemIcon>
+              <ListItemText primary="My Classes" />
+            </ListItem>
+            <ListItem button component={RouterLink} to="/teachers-students" style={{marginTop:"04px"}}>
+              <ListItemIcon>
+                <SupervisorAccount />
+              </ListItemIcon>
+              <ListItemText primary="My Students" />
+            </ListItem>
+            <ListItem button component={RouterLink} to="/teacher-attendance" style={{marginTop:"04px"}}>
+              <ListItemIcon>
+                < PendingActions />
+              </ListItemIcon>
+              <ListItemText primary="Attendance" />
+            </ListItem>
+            <ListItem button component={RouterLink} to="/teachers-home-work" style={{marginTop:"04px"}}>
+              <ListItemIcon>
+                <ContentPaste />
+              </ListItemIcon>
+              <ListItemText primary="Home work" />
+            </ListItem>
+            <ListItem button component={RouterLink} to="/teachers-Assigment-monthly-test" style={{marginTop:"04px"}}>
+              <ListItemIcon>
+                <Assignment />
+              </ListItemIcon>
+              <ListItemText primary="Assigment & Monthly Test" />
+            </ListItem>
+            <ListItem button component={RouterLink} to="/teachers-Term-Test-Marking" style={{marginTop:"04px"}}>
+              <ListItemIcon>
+                <CheckBox />
+              </ListItemIcon>
+              <ListItemText primary="Term test marking" />
+            </ListItem>
+            <ListItem button component={RouterLink} to="/teachers-my-account" style={{marginTop:"04px"}}>
+              <ListItemIcon>
+                <AccountCircle />
+              </ListItemIcon>
+              <ListItemText primary="My Account" />
+            </ListItem>
+          </List>
         </Box>
       </div>
       <div className={`${classes.pageHeader} ${classes.mb2}`}>
@@ -98,7 +116,7 @@ export const AddResultsPage = () => {
               position: 'fixed', 
               left: '21%',  
           }}>
-            Add Results
+            Add Note
       </Typography>
       </div>
       <div>
@@ -149,19 +167,19 @@ export const AddResultsPage = () => {
                  </ThemeProvider>
                  <div>
                 <Button type="submit"
-                    variant="contained" 
-                    position="flex" 
-                    component={RouterLink}
-                    to="/common-page"
-                    edge="start"
-                    aria-label="common-paget"
+                        variant="contained" 
+                        position="flex" 
+                        component={RouterLink}
+                        to="/teachers-classes-class02-buddadarmaya"
+                        edge="start"
+                        aria-label="teachers-classes-class02-buddadarmaya"
                     
                   sx={{ backgroundColor: 'blue', 
                         alignItems:'center',
                         left: "45%",
                         bottom:"10%"
                      }}>
-                  Add Results
+                  Add Note
                 </Button>
                 </div>
               </form>
