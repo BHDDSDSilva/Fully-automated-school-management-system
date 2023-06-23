@@ -402,9 +402,20 @@ import { MyStudentClass03BuddadarmayaPage } from "./components/teachers-page/mys
 import { MyStudentClass04Page } from "./components/teachers-page/mystudents/MyStudentClass04";
 import { MyStudentClass04SinhalaPage } from "./components/teachers-page/mystudents/MyStudentClass04sinhala";
 import { MyStudentClass04BuddadarmayaPage } from "./components/teachers-page/mystudents/MyStudentClass04buddadarmaya";
-
-
-
+import { Class01HomeworkPage } from "./components/teachers-page/homework/Class01";
+import { Class01SinhalaHomeworkPage } from "./components/teachers-page/homework/Class01sinhala";
+import { Class01BuddadarmayaHomeworkPage } from "./components/teachers-page/homework/Class01buddadarmaya";
+import { Class01UploadHomeWorkSinhalaPage } from "./components/teachers-page/homework/class01uploadhomeworksinhala";
+import { Class01UploadHomeWorkBuddadarmayaPage } from "./components/teachers-page/homework/class01uploadhomeworkbuddadarmaya";
+import { AssigmentPage } from "./components/teachers-page/assigment&monthlytest/assigment";
+import { MonthlyTestPage } from "./components/teachers-page/assigment&monthlytest/monthlytest";
+import { AssigmentListPage } from "./components/teachers-page/assigment&monthlytest/assigmentlist";
+import { UploadAssigmentPage } from "./components/teachers-page/assigment&monthlytest/assigmentupload";
+import { AssigmentMarkingUploadPage } from "./components/teachers-page/assigment&monthlytest/assigmentmarkingupload";
+import { MonthlyTestListPage } from "./components/teachers-page/assigment&monthlytest/monthlytestlist";
+import { UploadMonthlyTestPage } from "./components/teachers-page/assigment&monthlytest/monthlytestupload";
+import { MonthlyTestMarkingUploadPage } from "./components/teachers-page/assigment&monthlytest/monthlytestmarkingupload";
+import { Class01TermTestPage } from "./components/teachers-page/TermTestMarking/Class01";
 
 export const App = () => (
   
@@ -809,8 +820,22 @@ export const App = () => (
         <Route path="/teachers-students-class04-buddadarmaya" exact element={<MyStudentClass04BuddadarmayaPage/>}/>
         <Route path="/teacher-attendance" exact element={<AttendancePage/>}/>
         <Route path="/teachers-home-work" exact element={<HomeworkPage/>}/>
+        <Route path="/teachers-home-work-class01" exact element={<Class01HomeworkPage/>}/>
+        <Route path="/teachers-home-work-class01-sinhala" exact element={<Class01SinhalaHomeworkPage/>}/>
+        <Route path="/teachers-home-work-class01-buddadarmaya" exact element={<Class01BuddadarmayaHomeworkPage/>}/>
+        <Route path="/teachers-home-work-class01-upload-home-work-sinhala" exact element={<Class01UploadHomeWorkSinhalaPage/>}/>
+        <Route path="/teachers-home-work-class01-upload-home-work-buddadarmaya" exact element={<Class01UploadHomeWorkBuddadarmayaPage/>}/>
         <Route path="/teachers-Assigment-monthly-test" exact element={<AssigmentAndMonthlyTestPage/>}/>
+        <Route path="/teachers-Assigment-monthly-test-Assigmnet" exact element={<AssigmentPage/>}/>
+        <Route path="/teachers-Assigment-monthly-test-Assigmnet-list" exact element={<AssigmentListPage/>}/>
+        <Route path="/teachers-Assigment-monthly-test-Assigmnet-upload" exact element={<UploadAssigmentPage/>}/>
+        <Route path="/teachers-Assigment-monthly-test-Assigmnet-marking-upload" exact element={<AssigmentMarkingUploadPage/>}/>
+        <Route path="/teachers-Assigment-monthly-test-MonthlyTest" exact element={<MonthlyTestPage/>}/>
+        <Route path="/teachers-Assigment-monthly-test-MonthlyTest-list" exact element={<MonthlyTestListPage/>}/>
+        <Route path="/teachers-Assigment-monthly-test-MonthlyTest-upload" exact element={<UploadMonthlyTestPage/>}/>
+        <Route path="/teachers-Assigment-monthly-test-MonthlyTest-marking-upload" exact element={<MonthlyTestMarkingUploadPage/>}/>
         <Route path="/teachers-Term-Test-Marking" exact element={<TermTestMarkingPage/>}/>
+        <Route path="/teachers-term-test-class01" rxact element={<Class01TermTestPage/>}/>
         <Route path="/teachers-my-account" exact element={<TeachersMyAccountPage/>}/>
         <Route path="/teachers-incharge" exact element={<TeachersInchargePage/>}/>
       </Routes>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, ListItem, ListItemIcon, ListItemText,Box } from '@mui/material';
+import { List, ListItem, ListItemIcon, ListItemText,Box,Card,CardContent,Typography } from '@mui/material';
 import { Home,SupervisorAccount, PendingActions,AccountCircle,Margin,Business,ContentPaste,Assignment,CheckBox } from '@mui/icons-material';
 import { Link as RouterLink } from "react-router-dom"
 import classes from "./styles.module.css"
@@ -74,6 +74,47 @@ export const AttendancePage = () => {
           </List>
           </Box>
         </div>
+        <div className={`${classes.pageHeader} ${classes.mb2}`}>
+          <Typography variant="h4" gutterBottom
+              sx={{ 
+                  position: 'fixed', 
+                  left: '21%',  
+              }}>
+                Teacher Attendance Report 
+          </Typography>
+        </div>
+        <div className={`${classes.pageHeader} ${classes.mb2}`}>
+        <Box>
+        <Card sx={{width: '500px',
+                   position: 'fixed', 
+                   left: '21%', 
+                   top: '31%', 
+                   height: '55vh', 
+                   backgroundColor: '#f0f0f0'}}>
+            <CardContent>
+                <Typography variant="h5" gutterBottom>
+                  Dates of The Arrival Report   
+                </Typography>  
+            </CardContent>
+        </Card>
+        </Box>
+      </div>
+      <div className={`${classes.pageHeader} ${classes.mb2}`}>
+        <Box>
+        <Card sx={{width: '500px',
+                   position: 'fixed', 
+                   left: '60%', 
+                   top: '31%', 
+                   height: '55vh', 
+                   backgroundColor: '#f0f0f0'}}>
+            <CardContent>
+                <Typography variant="h5" gutterBottom>
+                  Dates of Absence Report  
+                </Typography> 
+            </CardContent>
+        </Card>
+        </Box>
+      </div>
         </>
     )
 }

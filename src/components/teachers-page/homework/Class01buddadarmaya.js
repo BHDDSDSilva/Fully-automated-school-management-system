@@ -1,22 +1,22 @@
 import React from 'react';
-import { List, ListItem, ListItemIcon, ListItemText,Box,Button, Card, CardActions, CardMedia, } from '@mui/material';
+import { List, ListItem, ListItemIcon, ListItemText, Box, Typography, Card, CardContent,Button } from '@mui/material';
 import { Home,SupervisorAccount, PendingActions,AccountCircle,Margin,Business,ContentPaste,Assignment,CheckBox } from '@mui/icons-material';
-import { Link as RouterLink } from "react-router-dom"
+import { Link as RouterLink } from "react-router-dom";
 import classes from "./styles.module.css"
 
-export const AssigmentAndMonthlyTestPage = () => {
+export const Class01BuddadarmayaHomeworkPage = () => {
 
     return (
-        <>
-        <div>
-          <Box sx={{ width: '20%', 
-                     position: 'fixed', 
-                     left: 0, 
-                     top: 0, 
-                     height: '91vh', 
-                     backgroundColor: '#87cefa',
-                  }} >
-          <List >
+      <>
+      <div>
+        <Box sx={{ width: '20%', 
+                   position: 'fixed', 
+                   left: 0, 
+                   top: 0, 
+                   height: '91vh', 
+                   backgroundColor: '#87cefa' 
+                }} >
+        <List >
             <ListItem button component={RouterLink} to="/teachers" style={{marginTop:"60px"}} >
               <ListItemIcon>
                 <Home />
@@ -72,68 +72,53 @@ export const AssigmentAndMonthlyTestPage = () => {
               <ListItemText primary="My Account" />
             </ListItem>
           </List>
-          </Box>
-        </div>
-        <div className={`${classes.pageHeader} ${classes.mb2}`}>
-      <Card 
-        sx={{   maxWidth: '450',
-                width: '23%', 
-                position: 'fixed', 
-                left: "30%", 
-                top: "29%", 
-                height: '50vh', 
-                backgroundColor: '#ee82ee',
-                border: '4px solid #800080', 
-            }}>
-            <CardMedia
-                    sx={{ height: 266 }}
-                    image="./assignment.png"
-            />
-            <CardActions>
-                <Button size="big"
-                        component={RouterLink}
-                        to="/teachers-Assigment-monthly-test-Assigmnet"
-                        edge="start"
-                        aria-label="teachers-Assigment-monthly-test-Assigmnet"
-                sx={{   
-                        color: '#000000',
-                        fontweight: 'bold'
-                    }}
-                >
-                    Assignment 
-                </Button>
-            </CardActions>
-        </Card>
+        </Box>
+      </div>
+      <div className={`${classes.pageHeader} ${classes.mb2}`}>
+      <Typography variant="h4" gutterBottom
+          sx={{ 
+              position: 'fixed', 
+              left: '21%',  
+          }}>
+            Budda-Darmaya Home Work List
+      </Typography>
+      </div>
+      <div>
+        <Button 
+                variant="contained"
+                size="big"
+                component={RouterLink}
+                to="/teachers-home-work-class01-upload-home-work-buddadarmaya"
+                edge="start"
+                aria-label="teachers-home-work-class01-upload-home-work-buddadarmaya"
+                
+            sx={{   width: '20%', 
+                    position: 'fixed', 
+                    right: '1%', 
+                    top: '18%', 
+                    height: '10vh', 
+                    backgroundColor: '#800000',
+                    border: '4px solid #ff0000',
+                    color: '#ffffff',
+                    fontweight: 'bold'
+                }}
+        >
+                Add Home Work 
+        </Button>
+      </div>
+      <div>
         <Card 
-        sx={{   maxWidth: '450',
-                width: '23%', 
-                position: 'fixed', 
-                left: "60%", 
-                top: "29%", 
-                height: '50vh', 
-                backgroundColor: '#adff2f',
-                border: '4px solid #006400', 
-            }}>
-            <CardMedia
-                    sx={{ height: 266 }}
-                    image="./monthly exam.png"
-            />
-            <CardActions>
-                <Button size="big"
-                        component={RouterLink}
-                        to="/teachers-Assigment-monthly-test-MonthlyTest"
-                        edge="start"
-                        aria-label="teachers-Assigment-monthly-test-MonthlyTest"
-                sx={{   
-                        color: '#000000',
-                        fontweight: 'bold'
-                    }}
-                >
-                    Monthly Exam 
-                </Button>
-            </CardActions>
+            sx={{   width: '170vh', 
+                    position: 'fixed', 
+                    left: '21%',  
+                    top: "31%", 
+                    height: '57vh', 
+                    backgroundColor: '#f0f0f0'}}>
+            <CardContent>
+                    
+            </CardContent>
         </Card>
-        </div>
-        </>
+      </div>
+      </>
     )
 }

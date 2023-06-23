@@ -4,7 +4,7 @@ import { Home,SupervisorAccount, PendingActions,AccountCircle,Margin,Business,Co
 import { Link as RouterLink } from "react-router-dom"
 import classes from "./styles.module.css"
 
-export const HomeworkPage = () => {
+export const AssigmentPage = () => {
 
     return (
         <>
@@ -80,7 +80,7 @@ export const HomeworkPage = () => {
                 position: 'fixed', 
                 left: '21%',  
             }}>
-                Classes
+                Assigments
         </Typography>
         </div>
         <div className={`${classes.pageHeader} ${classes.mb2}`}> 
@@ -88,86 +88,46 @@ export const HomeworkPage = () => {
                 variant="contained"
                 size="big"
                 component={RouterLink}
-                to="/teachers-home-work-class01"
+                to="/teachers-Assigment-monthly-test-Assigmnet-list"
                 edge="start"
-                aria-label="teachers-home-work-class01"
+                aria-label="teachers-Assigment-monthly-test-Assigmnet-list"
                 
-            sx={{   width: '34%', 
+            sx={{   maxWidth: '345',
+                    width: '28%', 
                     position: 'fixed', 
-                    left: '25%', 
-                    top: '25%', 
-                    height: '30vh', 
-                    backgroundColor: '#ffb6c1',
-                    border: '4px solid #ff1493',
+                    left: "24%", 
+                    top: "32%", 
+                    height: '40vh', 
+                    backgroundColor: '#eee8aa',
+                    border: '4px solid #800000',
                     color: '#000000',
                     fontweight: 'bold'
                 }}
         >
-                Class 01 
+                Assigment Upload
         </Button>
         <Button 
                 variant="contained"
                 size="big"
                 component={RouterLink}
-                to="/teachers-home-work-class02"
+                to="/teachers-Assigment-monthly-test-Assigmnet-marking-upload"
                 edge="start"
-                aria-label="teachers-home-work-class02"
+                aria-label="teachers-Assigment-monthly-test-Assigmnet-marking-upload"
                 
-            sx={{   width: '34%', 
+            sx={{   maxWidth: '345',
+                    width: '28%', 
                     position: 'fixed', 
-                    left: '60%', 
-                    top: '25%', 
-                    height: '30vh', 
-                    backgroundColor: '#90ee90',
-                    border: '4px solid #006400',
+                    left: "60%", 
+                    top: "32%", 
+                    height: '40vh', 
+                    backgroundColor: '#eee8aa',
+                    border: '4px solid #800000',
                     color: '#000000',
                     fontweight: 'bold'
                 }}
         >
-                Class 02  
+                Assigment Marking Upload
         </Button>
-        <Button 
-                variant="contained"
-                size="big"
-                component={RouterLink}
-                to="/teachers-home-work-class03"
-                edge="start"
-                aria-label="teachers-home-work-class03"
-                
-            sx={{   width: '34%', 
-                    position: 'fixed', 
-                    left: '25%', 
-                    top: '60%', 
-                    height: '30vh', 
-                    backgroundColor: '#fffacd',
-                    border: '4px solid #ffa500',
-                    color: '#000000',
-                    fontweight: 'bold'
-                }}
-        >
-                Class 03  
-        </Button>
-        <Button 
-                variant="contained"
-                size="big"
-                component={RouterLink}
-                to="/teachers-home-work-class04"
-                edge="start"
-                aria-label="teachers-home-work-class04"
-                
-            sx={{   width: '34%', 
-                    position: 'fixed', 
-                    left: '60%', 
-                    top: '60%', 
-                    height: '30vh', 
-                    backgroundColor: '#dda0dd',
-                    border: '4px solid #800080',
-                    color: '#000000',
-                    fontweight: 'bold'
-                }}
-        >
-                Class 04  
-        </Button>      
       </div>
         </>
     )
