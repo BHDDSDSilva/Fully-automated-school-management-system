@@ -368,7 +368,7 @@ import { HomeworkPage } from "./components/teachers-page/homework/homework";
 import { AssigmentAndMonthlyTestPage } from "./components/teachers-page/assigment&monthlytest/assigment&monthlytest";
 import { TermTestMarkingPage } from "./components/teachers-page/TermTestMarking/termtestmarking";
 import { TeachersMyAccountPage } from "./components/teachers-page/MyAccount/myaccount";
-import { TeachersInchargePage } from "./components/teachers-page/switchteachersinchage/teachersinchage";
+import { TeachersInchargePage } from "./components/teachersInchargePage/switchteachersinchage/teachersinchage";
 import { Class01Page } from "./components/teachers-page/myclasses/Class01";
 import { Class02Page } from "./components/teachers-page/myclasses/Class02";
 import { Class03Page } from "./components/teachers-page/myclasses/Class03";
@@ -416,6 +416,43 @@ import { MonthlyTestListPage } from "./components/teachers-page/assigment&monthl
 import { UploadMonthlyTestPage } from "./components/teachers-page/assigment&monthlytest/monthlytestupload";
 import { MonthlyTestMarkingUploadPage } from "./components/teachers-page/assigment&monthlytest/monthlytestmarkingupload";
 import { Class01TermTestPage } from "./components/teachers-page/TermTestMarking/Class01";
+import { Class01TermTestSinhalaPage } from "./components/teachers-page/TermTestMarking/Class01TermTestSinhala";
+import { Class01SinhalaTermTestIMarkingUploadPage } from "./components/teachers-page/TermTestMarking/class01SinhalatermImarkingupload";
+import { Class01SinhalaTermTestIIMarkingUploadPage } from "./components/teachers-page/TermTestMarking/class01SinhalatermIImarkingupload";
+import { Class01SinhalaTermTestIIIMarkingUploadPage } from "./components/teachers-page/TermTestMarking/class01SinhalatermIIImarkingupload";
+import { Class01TermTestBuddadarmayaPage } from "./components/teachers-page/TermTestMarking/Class01TermTestBuddadarmaya";
+import { Class01BuddadarmayaTermTestIMarkingUploadPage } from "./components/teachers-page/TermTestMarking/class01BuddadarmayatermImarkingupload";
+import { Class01BuddadarmayaTermTestIIMarkingUploadPage } from "./components/teachers-page/TermTestMarking/class01BuddadarmayatermIImarkingupload";
+import { Class01BuddadarmayaTermTestIIIMarkingUploadPage } from "./components/teachers-page/TermTestMarking/class01BuddadarmayatermIIImarkingupload";
+import { Grade0105Page } from "./components/teachersInchargePage/grade 01-05/grade01-05";
+import { Grade0609Page } from "./components/teachersInchargePage/grade 06-09/grade06-09";
+import { Grade1011Page } from "./components/teachersInchargePage/grade 10-11/grade10-11";
+import { Grade1213Page } from "./components/teachersInchargePage/grade 12-13/grade12-13";
+import { TeachersInchargeMyAccountPage } from "./components/teachersInchargePage/myAccount/myaccount";
+import { Grade01TeachersInchagePage } from "./components/teachersInchargePage/grade 01-05/grade01teachersinchage";
+import { Grade01TeachersInchageStudentsAndTeachersInformationPage } from "./components/teachersInchargePage/grade 01-05/grade01teachersandstudentinfo";
+import { Grade01TeachersInchageTeachersInformationPage } from "./components/teachersInchargePage/grade 01-05/grade01teachersinformation";
+import { Grade01TeachersInchageStudentsInformationPage } from "./components/teachersInchargePage/grade 01-05/grade01studentsinformation";
+import { Grade01TeachersInchageStudentsProgressPage } from "./components/teachersInchargePage/grade 01-05/grade01studentsprogress";
+import { Grade01TeachersInchageTeachersProgressPage } from "./components/teachersInchargePage/grade 01-05/grade01teachersprogress";
+import { Grade06TeachersInchageStudentsAndTeachersInformationPage } from "./components/teachersInchargePage/grade 06-09/grade06teachersandstudentinfo";
+import { Grade06TeachersInchageTeachersInformationPage } from "./components/teachersInchargePage/grade 06-09/grade06teachersinformation";
+import { Grade06TeachersInchagePage } from "./components/teachersInchargePage/grade 06-09/grade06teachersinchage";
+import { Grade06TeachersInchageStudentsInformationPage } from "./components/teachersInchargePage/grade 06-09/grade06studentsinformation";
+import { Grade06TeachersInchageStudentsProgressPage } from "./components/teachersInchargePage/grade 06-09/grade06studentsprogress";
+import { Grade06TeachersInchageTeachersProgressPage } from "./components/teachersInchargePage/grade 06-09/grade06teachersprogress";
+import { Grade10TeachersInchagePage } from "./components/teachersInchargePage/grade 10-11/grade10teachersinchage";
+import { Grade10TeachersInchageStudentsAndTeachersInformationPage } from "./components/teachersInchargePage/grade 10-11/grade10teachersandstudentinfo";
+import { Grade10TeachersInchageTeachersInformationPage } from "./components/teachersInchargePage/grade 10-11/grade10teachersinformation";
+import { Grade10TeachersInchageStudentsInformationPage } from "./components/teachersInchargePage/grade 10-11/grade10studentsinformation";
+import { Grade10TeachersInchageStudentsProgressPage } from "./components/teachersInchargePage/grade 10-11/grade10studentsprogress";
+import { Grade10TeachersInchageTeachersProgressPage } from "./components/teachersInchargePage/grade 10-11/grade10teachersprogress";
+import { Grade12TeachersInchagePage } from "./components/teachersInchargePage/grade 12-13/grade12teachersinchage";
+import { Grade12TeachersInchageStudentsAndTeachersInformationPage } from "./components/teachersInchargePage/grade 12-13/grade12teachersandstudentinfo";
+import { Grade12TeachersInchageTeachersInformationPage } from "./components/teachersInchargePage/grade 12-13/grade12teachersinformation";
+import { Grade12TeachersInchageStudentsInformationPage } from "./components/teachersInchargePage/grade 12-13/grade12studentsinformation";
+import { Grade12TeachersInchageStudentsProgressPage } from "./components/teachersInchargePage/grade 12-13/grade12studentsprogress";
+import { Grade12TeachersInchageTeachersProgressPage } from "./components/teachersInchargePage/grade 12-13/grade12teachersprogress";
 
 export const App = () => (
   
@@ -835,9 +872,46 @@ export const App = () => (
         <Route path="/teachers-Assigment-monthly-test-MonthlyTest-upload" exact element={<UploadMonthlyTestPage/>}/>
         <Route path="/teachers-Assigment-monthly-test-MonthlyTest-marking-upload" exact element={<MonthlyTestMarkingUploadPage/>}/>
         <Route path="/teachers-Term-Test-Marking" exact element={<TermTestMarkingPage/>}/>
-        <Route path="/teachers-term-test-class01" rxact element={<Class01TermTestPage/>}/>
+        <Route path="/teachers-term-test-class01" exact element={<Class01TermTestPage/>}/>
+        <Route path="/teachers-term-test-class01-sinhala" exact element={<Class01TermTestSinhalaPage/>}/>
+        <Route path="/teachers-term-test-class01-sinhala-term-i" exact element={<Class01SinhalaTermTestIMarkingUploadPage/>}/>
+        <Route path="/teachers-term-test-class01-sinhala-term-ii" exact element={<Class01SinhalaTermTestIIMarkingUploadPage/>}/>
+        <Route path="/teachers-term-test-class01-sinhala-term-iii" exact element={<Class01SinhalaTermTestIIIMarkingUploadPage/>}/>
+        <Route path="/teachers-term-test-class01-buddadarmaya" exact element={<Class01TermTestBuddadarmayaPage/>}/>
+        <Route path="/teachers-term-test-class01-budda-darmaya-term-i" exact element={<Class01BuddadarmayaTermTestIMarkingUploadPage/>}/>
+        <Route path="/teachers-term-test-class01-budda-darmaya-term-ii" exact element={<Class01BuddadarmayaTermTestIIMarkingUploadPage/>}/>
+        <Route path="/teachers-term-test-class01-budda-darmaya-term-iii" exact element={<Class01BuddadarmayaTermTestIIIMarkingUploadPage/>}/>
         <Route path="/teachers-my-account" exact element={<TeachersMyAccountPage/>}/>
         <Route path="/teachers-incharge" exact element={<TeachersInchargePage/>}/>
+        <Route path="/teachers-incharge-grade-01-05" exact element={<Grade0105Page/>}/>
+        <Route path="/teachers-incharge-grade-01" exact element={<Grade01TeachersInchagePage/>}/>
+        <Route path="/teachers-incharge-grade-01-students-and-teachers-information" exact element={<Grade01TeachersInchageStudentsAndTeachersInformationPage/>}/>
+        <Route path="/teachers-incharge-grade-01-teachers-information" exact element={<Grade01TeachersInchageTeachersInformationPage/>}/>
+        <Route path="/teachers-incharge-grade-01-students-information" exact element={<Grade01TeachersInchageStudentsInformationPage/>}/>
+        <Route path="/teachers-incharge-grade-01-students-progress" exact element={<Grade01TeachersInchageStudentsProgressPage/>}/>
+        <Route path="/teachers-incharge-grade-01-teachers-progress" exact element={<Grade01TeachersInchageTeachersProgressPage/>}/>
+        <Route path="/teachers-incharge-grade-06-09" exact element={<Grade0609Page/>}/>
+        <Route path="/teachers-incharge-grade-06" exact element={<Grade06TeachersInchagePage/>}/>
+        <Route path="/teachers-incharge-grade-06-students-and-teachers-information" exact element={<Grade06TeachersInchageStudentsAndTeachersInformationPage/>}/>
+        <Route path="/teachers-incharge-grade-06-teachers-information" exact element={<Grade06TeachersInchageTeachersInformationPage/>}/>
+        <Route path="/teachers-incharge-grade-06-students-information" exact element={<Grade06TeachersInchageStudentsInformationPage/>}/>
+        <Route path="/teachers-incharge-grade-06-students-progress" exact element={<Grade06TeachersInchageStudentsProgressPage/>}/>
+        <Route path="/teachers-incharge-grade-06-teachers-progress" exact element={<Grade06TeachersInchageTeachersProgressPage/>}/>
+        <Route path="/teachers-incharge-grade-10-11" exact element={<Grade1011Page/>}/>
+        <Route path="/teachers-incharge-grade-10" exact element={<Grade10TeachersInchagePage/>}/>
+        <Route path="/teachers-incharge-grade-10-students-and-teachers-information" exact element={<Grade10TeachersInchageStudentsAndTeachersInformationPage/>}/>
+        <Route path="/teachers-incharge-grade-10-teachers-information" exact element={<Grade10TeachersInchageTeachersInformationPage/>}/>
+        <Route path="/teachers-incharge-grade-10-students-information" exact element={<Grade10TeachersInchageStudentsInformationPage/>}/>
+        <Route path="/teachers-incharge-grade-10-students-progress" exact element={<Grade10TeachersInchageStudentsProgressPage/>}/>
+        <Route path="/teachers-incharge-grade-10-teachers-progress" exact element={<Grade10TeachersInchageTeachersProgressPage/>}/>
+        <Route path="/teachers-incharge-grade-12-13" exact element={<Grade1213Page/>}/>
+        <Route path="/teachers-incharge-grade-12" exact element={<Grade12TeachersInchagePage/>}/>
+        <Route path="/teachers-incharge-grade-12-students-and-teachers-information" exact element={<Grade12TeachersInchageStudentsAndTeachersInformationPage/>}/>
+        <Route path="/teachers-incharge-grade-12-teachers-information" exact element={<Grade12TeachersInchageTeachersInformationPage/>}/>
+        <Route path="/teachers-incharge-grade-12-students-information" exact element={<Grade12TeachersInchageStudentsInformationPage/>}/>
+        <Route path="/teachers-incharge-grade-12-students-progress" exact element={<Grade12TeachersInchageStudentsProgressPage/>}/>
+        <Route path="/teachers-incharge-grade-12-teachers-progress" exact element={<Grade12TeachersInchageTeachersProgressPage/>}/>
+        <Route path="/teachers-incharge-my-account" exact element={<TeachersInchargeMyAccountPage/>}/> 
       </Routes>
       </Container>
   </Suspense>
