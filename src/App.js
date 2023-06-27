@@ -453,6 +453,28 @@ import { Grade12TeachersInchageTeachersInformationPage } from "./components/teac
 import { Grade12TeachersInchageStudentsInformationPage } from "./components/teachersInchargePage/grade 12-13/grade12studentsinformation";
 import { Grade12TeachersInchageStudentsProgressPage } from "./components/teachersInchargePage/grade 12-13/grade12studentsprogress";
 import { Grade12TeachersInchageTeachersProgressPage } from "./components/teachersInchargePage/grade 12-13/grade12teachersprogress";
+import { PrincipleDashboradPage } from "./components/principle-page/dashborad/principledashborad";
+import { PrincipleStudentsPage } from "./components/principle-page/students/principlestudent";
+import { PrincipleTeachersPage } from "./components/principle-page/teachers/principleteachers";
+import { PrincipleOfficeStaffPage } from "./components/principle-page/office staff/principleofficestaff";
+import { PrincipleResultsPage } from "./components/principle-page/results/principleresults";
+import { PrincipleMyAccountPage } from "./components/principle-page/myaccount/myaccount";
+import { PSGrade01Page } from "./components/principle-page/students/Grade01/psgrade01";
+import { PSGrade01A } from "./components/principle-page/students/Grade01/psgrade01A";
+import { Grade01APrincipleStudentsInformationPage } from "./components/principle-page/students/Grade01/grade01Astudentsinformation";
+import { Grade01APrincipleStudentsProgressPage } from "./components/principle-page/students/Grade01/grade01Astudentsprogress";
+import { PTGrade01 } from "./components/principle-page/teachers/Grade01/ptgrade01";
+import { Grade01PrincipleTeachersInformationPage } from "./components/principle-page/teachers/Grade01/grade01teachersinformation";
+import { Grade01PrincipleTeachersProgressPage } from "./components/principle-page/teachers/Grade01/grade01teachersprogress";
+import { PRGrade05ScholarshipPage } from "./components/principle-page/results/grade5scholarship";
+import { PROLResultsPage } from "./components/principle-page/results/olresults";
+import { PRALResultsPage } from "./components/principle-page/results/alresults";
+import { StudentDashboradPage } from "./components/student-page/dashborad/studentdashborad";
+import { StudentGrade0105Page } from "./components/student-page/grade01-05/studentgrade01-05";
+import { StudentGrade0609Page } from "./components/student-page/grade06-09/studentgrade06-09";
+import { StudentGrade1011Page } from "./components/student-page/grade10-11/studentgrade10-11";
+import { StudentGrade1213Page } from "./components/student-page/grade12-13/studentgrade12-13";
+import { StudentMyAccountPage } from "./components/student-page/my account/myaccount";
 
 export const App = () => (
   
@@ -912,6 +934,28 @@ export const App = () => (
         <Route path="/teachers-incharge-grade-12-students-progress" exact element={<Grade12TeachersInchageStudentsProgressPage/>}/>
         <Route path="/teachers-incharge-grade-12-teachers-progress" exact element={<Grade12TeachersInchageTeachersProgressPage/>}/>
         <Route path="/teachers-incharge-my-account" exact element={<TeachersInchargeMyAccountPage/>}/> 
+        <Route path="/principle" exact element={<PrincipleDashboradPage/>}/>
+        <Route path="/principle-students" exact element={<PrincipleStudentsPage/>}/>
+        <Route path="/principle-students-grade01" exact element={<PSGrade01Page/>}/>
+        <Route path="/principle-students-grade01-grade01-A" exact element={<PSGrade01A/>}/>
+        <Route path="/principle-grade-01-grade-01-A-students-information" exact element={<Grade01APrincipleStudentsInformationPage/>}/>
+        <Route path="/principle-grade-01-grade-01-A-students-progress" exact element={<Grade01APrincipleStudentsProgressPage/>}/>
+        <Route path="/principle-teachers" exact element={<PrincipleTeachersPage/>}/>
+        <Route path="/principle-grade-01" exact element={<PTGrade01/>}/>
+        <Route path="/principle-grade-01-teachers-information" exact element={<Grade01PrincipleTeachersInformationPage/>}/>
+        <Route path="/principle-grade-01-teachers-progress" exact element={<Grade01PrincipleTeachersProgressPage/>}/>
+        <Route path="/principle-office-staff" exact element={<PrincipleOfficeStaffPage/>}/>
+        <Route path="/principle-results" exact element={<PrincipleResultsPage/>}/>
+        <Route path="/principle-result-grade5scholarship" exact element={<PRGrade05ScholarshipPage/>}/>
+        <Route path="/principle-result-olresults" exact element={<PROLResultsPage/>}/>
+        <Route path="/principle-result-alresults" exact element={<PRALResultsPage/>}/>
+        <Route path="/principle-my-account" exact element={<PrincipleMyAccountPage/>}/>
+        <Route path="/student" exact element={<StudentDashboradPage/>}/>
+        <Route path="/student-grade-01-05" exact element={<StudentGrade0105Page/>}/>
+        <Route path="/student-grade-06-09" exact element={<StudentGrade0609Page/>}/>
+        <Route path="/student-grade-10-11" exact element={<StudentGrade1011Page/>}/>
+        <Route path="/student-grade-12-13" exact element={<StudentGrade1213Page/>}/>
+        <Route path="/student-my-account" exact element={<StudentMyAccountPage/>}/>
       </Routes>
       </Container>
   </Suspense>
