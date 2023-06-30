@@ -475,6 +475,95 @@ import { StudentGrade0609Page } from "./components/student-page/grade06-09/stude
 import { StudentGrade1011Page } from "./components/student-page/grade10-11/studentgrade10-11";
 import { StudentGrade1213Page } from "./components/student-page/grade12-13/studentgrade12-13";
 import { StudentMyAccountPage } from "./components/student-page/my account/myaccount";
+import { StudentGrade01Page } from "./components/student-page/grade01-05/grade01";
+import { SGrade01SubjectNotePage } from "./components/student-page/grade01-05/subjectnotes";
+import { SGrade01SinhalaNoteViewPage } from "./components/student-page/grade01-05/sinhalanoteview";
+import { SGrade01BuddadarmayaNoteViewPage } from "./components/student-page/grade01-05/buddadarmayanoteview";
+import { SGrade01ParisarayaNoteViewPage } from "./components/student-page/grade01-05/parisarayanoteview";
+import { SGrade01MathsNoteViewPage } from "./components/student-page/grade01-05/mathsnoteview";
+import { SGrade01TermTestPage } from "./components/student-page/grade01-05/TermTest";
+import { SGrade01SubjectTermtestPage } from "./components/student-page/grade01-05/subjecttermtest";
+import { SGrade01SinhalaTermTestPaperViewPage } from "./components/student-page/grade01-05/sinhalatermtestpaperview";
+import { SGrade01BuddadarmayaTermTestPaperViewPage } from "./components/student-page/grade01-05/buddadarmayatermtestpaperview";
+import { SGrade01ParisarayaTermTestPaperViewPage } from "./components/student-page/grade01-05/parisarayatermtestpaperview";
+import { SGrade01MathsTermTestPaperViewPage } from "./components/student-page/grade01-05/mathstermtestpaperview ";
+import { SGrade01TermTestMarkingPage } from "./components/student-page/grade01-05/termtestmarking";
+import { SGrade01SubjectMonthlyTestPage } from "./components/student-page/grade01-05/subjectmonthlytest";
+import { SGrade01MonthlyTestPage } from "./components/student-page/grade01-05/MonthlyTest";
+import { SGrade01SinhalaMonthlyTestPaperViewPage } from "./components/student-page/grade01-05/sinhalamonthlytestpaperview";
+import { SGrade01BuddadarmayaMonthlyTestPaperViewPage } from "./components/student-page/grade01-05/buddadarmayamonthlytestpaperview";
+import { SGrade01ParisarayaMonthlyTestPaperViewPage } from "./components/student-page/grade01-05/parisarayamonthlytestpaperview";
+import { SGrade01MathsMonthlyTestPaperViewPage } from "./components/student-page/grade01-05/mathsmonthlytestpaperview";
+import { SGrade01MonthlyTestMarkingPage } from "./components/student-page/grade01-05/monthlytestmarking";
+import { SGrade01SubjectCoCurricularActivitiesPage } from "./components/student-page/grade01-05/subjectcoactivities";
+import { SGrade01SinhalaCoCurricularActivitiesViewPage } from "./components/student-page/grade01-05/sinhalacoactivitiesview";
+import { SGrade01BuddadarmayaCoCurricularActivitiesViewPage } from "./components/student-page/grade01-05/buddadarmayacoactivitiesview";
+import { SGrade01ParisarayaCoCurricularActivitiesViewPage } from "./components/student-page/grade01-05/parisarayacoactivitiesview";
+import { SGrade01MathsCoCurricularActivitiesViewPage } from "./components/student-page/grade01-05/mathscoactivitiesview";
+import { SGrade01SubjectEXCurricularActivitiesPage } from "./components/student-page/grade01-05/subjectexactivities";
+import { SGrade01SinhalaEXCurricularActivitiesViewPage } from "./components/student-page/grade01-05/sinhalaexactivitiesview";
+import { SGrade01BuddadarmayaEXCurricularActivitiesViewPage } from "./components/student-page/grade01-05/buddadarmayaexactivitiesview";
+import { SGrade01ParisarayaEXCurricularActivitiesViewPage } from "./components/student-page/grade01-05/parisarayaexactivitiesview";
+import { SGrade01MathsEXCurricularActivitiesViewPage } from "./components/student-page/grade01-05/mathsexactivitiesview";
+import { StudentGrade06Page } from "./components/student-page/grade06-09/grade06";
+import { SGrade06SubjectNotePage } from "./components/student-page/grade06-09/subjectnotes";
+import { SGrade06SinhalaNoteViewPage } from "./components/student-page/grade06-09/sinhalanoteview";
+import { SGrade06TermTestPage } from "./components/student-page/grade06-09/TermTest";
+import { SGrade06TermTestMarkingPage } from "./components/student-page/grade06-09/termtestmarking";
+import { SGrade06SubjectTermtestPage } from "./components/student-page/grade06-09/subjecttermtest";
+import { SGrade06SinhalaTermTestPaperViewPage } from "./components/student-page/grade06-09/sinhalatermtestpaperview";
+import { SGrade06MonthlyTestPage } from "./components/student-page/grade06-09/MonthlyTest";
+import { SGrade06SubjectMonthlyTestPage } from "./components/student-page/grade06-09/subjectmonthlytest";
+import { SGrade06SinhalaMonthlyTestPaperViewPage } from "./components/student-page/grade06-09/sinhalamonthlytestpaperview";
+import { SGrade06MonthlyTestMarkingPage } from "./components/student-page/grade06-09/monthlytestmarking";
+import { SGrade06AssigmentTestPage } from "./components/student-page/grade06-09/assigmentTest";
+import { SGrade06AssigmentTestMarkingPage } from "./components/student-page/grade06-09/assigmenttestmarking";
+import { SGrade06SubjectAssigmenttestPage } from "./components/student-page/grade06-09/subjectassigmenttest";
+import { SGrade06SinhalaAssigmentTestPaperViewPage } from "./components/student-page/grade06-09/sinhalaassigmenttestpaperview";
+import { SGrade06SubjectEXCurricularActivitiesPage } from "./components/student-page/grade06-09/subjectexactivities";
+import { SGrade06SinhalaEXCurricularActivitiesViewPage } from "./components/student-page/grade06-09/sinhalaexactivitiesview";
+import { StudentGrade10Page } from "./components/student-page/grade10-11/grade10";
+import { SGrade10SubjectNotePage } from "./components/student-page/grade10-11/subjectnotes";
+import { SGrade10SinhalaNoteViewPage } from "./components/student-page/grade10-11/sinhalanoteview";
+import { SGrade10TermTestPage } from "./components/student-page/grade10-11/TermTest";
+import { SGrade10SubjectTermtestPage } from "./components/student-page/grade10-11/subjecttermtest";
+import { SGrade10SinhalaTermTestPaperViewPage } from "./components/student-page/grade10-11/sinhalatermtestpaperview";
+import { SGrade10TermTestMarkingPage } from "./components/student-page/grade10-11/termtestmarking";
+import { SGrade10MonthlyTestPage } from "./components/student-page/grade10-11/MonthlyTest";
+import { SGrade10SinhalaMonthlyTestPaperViewPage } from "./components/student-page/grade10-11/sinhalamonthlytestpaperview";
+import { SGrade10MonthlyTestMarkingPage } from "./components/student-page/grade10-11/monthlytestmarking";
+import { SGrade10SubjectMonthlyTestPage } from "./components/student-page/grade10-11/subjectmonthlytest";
+import { SGrade10AssigmentTestPage } from "./components/student-page/grade10-11/assigmentTest";
+import { SGrade10SubjectAssigmenttestPage } from "./components/student-page/grade10-11/subjectassigmenttest";
+import { SGrade10SinhalaAssigmentTestPaperViewPage } from "./components/student-page/grade10-11/sinhalaassigmenttestpaperview";
+import { SGrade10AssigmentTestMarkingPage } from "./components/student-page/grade10-11/assigmenttestmarking";
+import { SGrade10SubjectEXCurricularActivitiesPage } from "./components/student-page/grade10-11/subjectexactivities";
+import { SGrade10SinhalaEXCurricularActivitiesViewPage } from "./components/student-page/grade10-11/sinhalaexactivitiesview";
+import { StudentGrade12Page } from "./components/student-page/grade12-13/grade12";
+import { SGrade12SubjectNotePage } from "./components/student-page/grade12-13/subjectnotes";
+import { SGrade12SinhalaNoteViewPage } from "./components/student-page/grade12-13/sinhalanoteview";
+import { SGrade12TermTestPage } from "./components/student-page/grade12-13/TermTest";
+import { SGrade12SubjectTermtestPage } from "./components/student-page/grade12-13/subjecttermtest";
+import { SGrade12SinhalaTermTestPaperViewPage } from "./components/student-page/grade12-13/sinhalatermtestpaperview";
+import { SGrade12TermTestMarkingPage } from "./components/student-page/grade12-13/termtestmarking";
+import { SGrade12MonthlyTestPage } from "./components/student-page/grade12-13/MonthlyTest";
+import { SGrade12SubjectMonthlyTestPage } from "./components/student-page/grade12-13/subjectmonthlytest";
+import { SGrade12SinhalaMonthlyTestPaperViewPage } from "./components/student-page/grade12-13/sinhalamonthlytestpaperview";
+import { SGrade12MonthlyTestMarkingPage } from "./components/student-page/grade12-13/monthlytestmarking";
+import { SGrade12AssigmentTestPage } from "./components/student-page/grade12-13/assigmentTest";
+import { SGrade12SubjectAssigmenttestPage } from "./components/student-page/grade12-13/subjectassigmenttest";
+import { SGrade12SinhalaAssigmentTestPaperViewPage } from "./components/student-page/grade12-13/sinhalaassigmenttestpaperview";
+import { SGrade12AssigmentTestMarkingPage } from "./components/student-page/grade12-13/assigmenttestmarking";
+import { SGrade12SubjectEXCurricularActivitiesPage } from "./components/student-page/grade12-13/subjectexactivities";
+import { SGrade12SinhalaEXCurricularActivitiesViewPage } from "./components/student-page/grade12-13/sinhalaexactivitiesview";
+import { SOLeaxaminfoPage } from "./components/student-page/grade10-11/olexamination";
+import { SOLNewSubjectIntroPage } from "./components/student-page/grade10-11/olnewsubject";
+import { SOLnewsubjectapplicationPage } from "./components/student-page/grade10-11/olnewsubjectapplication";
+import { SOLaddmisionapplicationPage } from "./components/student-page/grade10-11/oladmissionapplication";
+import { SALeaxaminfoPage } from "./components/student-page/grade12-13/alexamination";
+import { SALNewSubjectIntroPage } from "./components/student-page/grade12-13/alnewsubject";
+import { SALnewsubjectapplicationPage } from "./components/student-page/grade12-13/alnewsubjectapplication";
+import { SALaddmisionapplicationPage } from "./components/student-page/grade12-13/aladmissionapplication";
 
 export const App = () => (
   
@@ -952,9 +1041,98 @@ export const App = () => (
         <Route path="/principle-my-account" exact element={<PrincipleMyAccountPage/>}/>
         <Route path="/student" exact element={<StudentDashboradPage/>}/>
         <Route path="/student-grade-01-05" exact element={<StudentGrade0105Page/>}/>
+        <Route path="/student-grade-01" exact element={<StudentGrade01Page/>}/>
+        <Route path="/view-notes" exact element={<SGrade01SubjectNotePage/>}/>
+        <Route path="/student-grade-01-subject-sinhala" exact element={<SGrade01SinhalaNoteViewPage/>}/>
+        <Route path="/student-grade-01-subject-budda-darmaya" exact element={<SGrade01BuddadarmayaNoteViewPage/>}/>
+        <Route path="/student-grade-01-subject-parisaraya" exact element={<SGrade01ParisarayaNoteViewPage/>}/>
+        <Route path="/student-grade-01-subject-maths" exact element={<SGrade01MathsNoteViewPage/>}/>
+        <Route path="/view-term-test" exact element={<SGrade01TermTestPage/>}/>
+        <Route path="/student-term-test-paper" exact element={<SGrade01SubjectTermtestPage/>}/>
+        <Route path="/student-grade-01-subject-term-test-sinhala" exact element={<SGrade01SinhalaTermTestPaperViewPage/>}/>
+        <Route path="/student-grade-01-subject-term-test-budda-darmaya" exact element={<SGrade01BuddadarmayaTermTestPaperViewPage/>}/>
+        <Route path="/student-grade-01-subject-term-test-parisaraya" exact element={<SGrade01ParisarayaTermTestPaperViewPage/>}/>
+        <Route path="/student-grade-01-subject-term-test-maths" exact element={<SGrade01MathsTermTestPaperViewPage/>}/>
+        <Route path="/student-term-test-marking" exact element={<SGrade01TermTestMarkingPage/>}/>
+        <Route path="/view-monthly-test" exact element={<SGrade01MonthlyTestPage/>}/>
+        <Route path="/student-monthly-test-paper" exact element={<SGrade01SubjectMonthlyTestPage/>}/>
+        <Route path="/student-grade-01-subject-monthly-test-sinhala" exact element={<SGrade01SinhalaMonthlyTestPaperViewPage/>}/>
+        <Route path="/student-grade-01-subject-monthly-test-budda-darmaya" exact element={<SGrade01BuddadarmayaMonthlyTestPaperViewPage/>}/>
+        <Route path="/student-grade-01-subject-monthly-test-parisaraya" exact element={<SGrade01ParisarayaMonthlyTestPaperViewPage/>}/>
+        <Route path="/student-grade-01-subject-monthly-test-maths" exact element={<SGrade01MathsMonthlyTestPaperViewPage/>}/>
+        <Route path="/student-monthly-test-marking" exact element={<SGrade01MonthlyTestMarkingPage/>}/>
+        <Route path="/view-co-curricular-activities" exact element={<SGrade01SubjectCoCurricularActivitiesPage/>}/>
+        <Route path="/student-grade-01-subject-co-curricular-activities-sinhala" exact element={<SGrade01SinhalaCoCurricularActivitiesViewPage/>}/>
+        <Route path="/student-grade-01-subject-co-curricular-activities-budda-darmaya" exact element={<SGrade01BuddadarmayaCoCurricularActivitiesViewPage/>}/>
+        <Route path="/student-grade-01-subject-co-curricular-activities-parisaraya" exact element={<SGrade01ParisarayaCoCurricularActivitiesViewPage/>}/>
+        <Route path="/student-grade-01-subject-co-curricular-activities-maths" exact element={<SGrade01MathsCoCurricularActivitiesViewPage/>}/>
+        <Route path="/view-extra-curricular-activities" exact element={<SGrade01SubjectEXCurricularActivitiesPage/>}/>
+        <Route path="/student-grade-01-subject-ex-curricular-activities-sinhala" exact element={<SGrade01SinhalaEXCurricularActivitiesViewPage/>}/>
+        <Route path="/student-grade-01-subject-ex-curricular-activities-budda-darmaya" exact element={<SGrade01BuddadarmayaEXCurricularActivitiesViewPage/>}/>
+        <Route path="/student-grade-01-subject-ex-curricular-activities-parisaraya" exact element={<SGrade01ParisarayaEXCurricularActivitiesViewPage/>}/>
+        <Route path="/student-grade-01-subject-ex-curricular-activities-maths" exact element={<SGrade01MathsEXCurricularActivitiesViewPage/>}/>
         <Route path="/student-grade-06-09" exact element={<StudentGrade0609Page/>}/>
+        <Route path="/student-grade-06" exact element={<StudentGrade06Page/>}/>
+        <Route path="/grade-06-view-notes" exact element={<SGrade06SubjectNotePage/>}/>
+        <Route path="/student-grade-06-subject-sinhala" exact element={<SGrade06SinhalaNoteViewPage/>}/>
+        <Route path="/grade-06-view-term-test" exact element={<SGrade06TermTestPage/>}/>
+        <Route path="/student-grade-06-term-test-paper" exact element={<SGrade06SubjectTermtestPage/>}/>
+        <Route path="/student-grade-06-subject-term-test-sinhala" exact element={<SGrade06SinhalaTermTestPaperViewPage/>}/>
+        <Route path="/student-grade-06-term-test-marking" exact element={<SGrade06TermTestMarkingPage/>}/>
+        <Route path="/grade-06-view-monthly-test" exact element={<SGrade06MonthlyTestPage/>}/>
+        <Route path="/student-grade-06-monthly-test-paper" exact element={<SGrade06SubjectMonthlyTestPage/>}/>
+        <Route path="/student-grade-06-subject-monthly-test-sinhala" exact element={<SGrade06SinhalaMonthlyTestPaperViewPage/>}/>
+        <Route path="/student-grade-06-monthly-test-marking" exact element={<SGrade06MonthlyTestMarkingPage/>}/>
+        <Route path="/grade-06-view-assigment" exact element={<SGrade06AssigmentTestPage/>}/>
+        <Route path="/student-grade-06-assigment-test-paper" exact element={<SGrade06SubjectAssigmenttestPage/>}/>
+        <Route path="/student-grade-06-subject-assigment-test-sinhala" exact element={<SGrade06SinhalaAssigmentTestPaperViewPage/>}/>
+        <Route path="/student-grade-06-assigment-test-marking" exact element={<SGrade06AssigmentTestMarkingPage/>}/>
+        <Route path="/grade-06-view-extra-curricular-activities" exact element={<SGrade06SubjectEXCurricularActivitiesPage/>}/>
+        <Route path="/student-grade-06-subject-ex-curricular-activities-sinhala" exact element={<SGrade06SinhalaEXCurricularActivitiesViewPage/>}/>
         <Route path="/student-grade-10-11" exact element={<StudentGrade1011Page/>}/>
+        <Route path="/student-grade-10" exact element={<StudentGrade10Page/>}/>
+        <Route path="/grade-10-view-notes" exact element={<SGrade10SubjectNotePage/>}/>
+        <Route path="/student-grade-10-subject-sinhala" exact element={<SGrade10SinhalaNoteViewPage/>}/>
+        <Route path="/grade-10-view-term-test" exact element={<SGrade10TermTestPage/>}/>
+        <Route path="/student-grade-10-term-test-paper" exact element={<SGrade10SubjectTermtestPage/>}/>
+        <Route path="/student-grade-10-subject-term-test-sinhala" exact element={<SGrade10SinhalaTermTestPaperViewPage/>}/>
+        <Route path="/student-grade-10-term-test-marking" exact element={<SGrade10TermTestMarkingPage/>}/>
+        <Route path="/grade-10-view-monthly-test" exact element={<SGrade10MonthlyTestPage/>}/>
+        <Route path="/student-grade-10-monthly-test-paper" exact element={<SGrade10SubjectMonthlyTestPage/>}/>
+        <Route path="/student-grade-10-subject-monthly-test-sinhala" exact element={<SGrade10SinhalaMonthlyTestPaperViewPage/>}/>
+        <Route path="/student-grade-10-monthly-test-marking" exact element={<SGrade10MonthlyTestMarkingPage/>}/>
+        <Route path="/grade-10-view-assigment" exact element={<SGrade10AssigmentTestPage/>}/>
+        <Route path="/student-grade-10-assigment-test-paper" exact element={<SGrade10SubjectAssigmenttestPage/>}/>
+        <Route path="/student-grade-10-subject-assigment-test-sinhala" exact element={<SGrade10SinhalaAssigmentTestPaperViewPage/>}/>
+        <Route path="/student-grade-10-assigment-test-marking" exact element={<SGrade10AssigmentTestMarkingPage/>}/>
+        <Route path="/grade-10-view-extra-curricular-activities" exact element={<SGrade10SubjectEXCurricularActivitiesPage/>}/>
+        <Route path="/student-grade-10-subject-ex-curricular-activities-sinhala" exact element={<SGrade10SinhalaEXCurricularActivitiesViewPage/>}/>
+        <Route path="/grade-10-view-O/L-examination-related-information" exact element={<SOLeaxaminfoPage/>}/>
+        <Route path="/ol-new-suject-information" exact element={<SOLNewSubjectIntroPage/>}/>
+        <Route path="/ol-new-suject-apply-application" exact element={<SOLnewsubjectapplicationPage/>}/>
+        <Route path="/ol-exam-admission-application" exact element={<SOLaddmisionapplicationPage/>}/>
         <Route path="/student-grade-12-13" exact element={<StudentGrade1213Page/>}/>
+        <Route path="/student-grade-12" exact element={<StudentGrade12Page/>}/>
+        <Route path="/grade-12-view-notes" exact element={<SGrade12SubjectNotePage/>}/>
+        <Route path="/student-grade-12-subject-sinhala" exact element={<SGrade12SinhalaNoteViewPage/>}/>
+        <Route path="/grade-12-view-term-test" exact element={<SGrade12TermTestPage/>}/>
+        <Route path="/student-grade-12-term-test-paper" exact element={<SGrade12SubjectTermtestPage/>}/>
+        <Route path="/student-grade-12-subject-term-test-sinhala" exact element={<SGrade12SinhalaTermTestPaperViewPage/>}/>
+        <Route path="/student-grade-12-term-test-marking" exact element={<SGrade12TermTestMarkingPage/>}/>
+        <Route path="/grade-12-view-monthly-test" exact element={<SGrade12MonthlyTestPage/>}/>
+        <Route path="/student-grade-12-monthly-test-paper" exact element={<SGrade12SubjectMonthlyTestPage/>}/>
+        <Route path="/student-grade-12-subject-monthly-test-sinhala" exact element={<SGrade12SinhalaMonthlyTestPaperViewPage/>}/>
+        <Route path="/student-grade-12-monthly-test-marking" exact element={<SGrade12MonthlyTestMarkingPage/>}/>
+        <Route path="/grade-12-view-assigment" exact element={<SGrade12AssigmentTestPage/>}/>
+        <Route path="/student-grade-12-assigment-test-paper" exact element={<SGrade12SubjectAssigmenttestPage/>}/>
+        <Route path="/student-grade-12-subject-assigment-test-sinhala" exact element={<SGrade12SinhalaAssigmentTestPaperViewPage/>}/>
+        <Route path="/student-grade-12-assigment-test-marking" exact element={<SGrade12AssigmentTestMarkingPage/>}/>
+        <Route path="/grade-12-view-extra-curricular-activities" exact element={<SGrade12SubjectEXCurricularActivitiesPage/>}/>
+        <Route path="/student-grade-12-subject-ex-curricular-activities-sinhala" exact element={<SGrade12SinhalaEXCurricularActivitiesViewPage/>}/>
+        <Route path="/grade-12-view-A/L-examination-related-information" exact element={<SALeaxaminfoPage/>}/>
+        <Route path="/al-new-suject-information" exact element={<SALNewSubjectIntroPage/>}/>
+        <Route path="/al-new-suject-apply-application" exact element={<SALnewsubjectapplicationPage/>}/>
+        <Route path="/al-exam-admission-application" exact element={<SALaddmisionapplicationPage/>}/>
         <Route path="/student-my-account" exact element={<StudentMyAccountPage/>}/>
       </Routes>
       </Container>
